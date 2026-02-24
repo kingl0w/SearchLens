@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import SearchPageContent from "./SearchPageContent";
 
 export const metadata: Metadata = {
-  title: "Search Documents — SearchLens",
+  title: "Search — SearchLens",
   description:
     "Search across our full document library with instant results and faceted filtering.",
 };

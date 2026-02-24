@@ -33,10 +33,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SearchLens — NASA Mission Document Search",
+  title: "SearchLens",
   description:
     "Search and explore NASA mission reports, technical briefs, and historical documents. All NASA content is public domain.",
   metadataBase: new URL("https://searchlens.example.com"),
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
