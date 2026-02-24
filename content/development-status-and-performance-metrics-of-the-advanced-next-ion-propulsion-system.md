@@ -1,0 +1,17 @@
+---
+title: "Development Status and Performance Metrics of the Advanced NEXT Ion Propulsion System"
+slug: "development-status-and-performance-metrics-of-the-advanced-next-ion-propulsion-system"
+program: "Propulsion & Technology"
+category: "Extended Abstract"
+tags: ["Spacecraft Propulsion and Power", "in space propulsion", "gridded ion thruster", "plasma physics"]
+year: 2025
+excerpt: "This manuscript will describe recent technical work performed as part of the Advanced NEXT program, a joint effort between the U.S. Space Force, NASA, and private industry. The program aims to develop"
+authors: ["Robert E Thomas", "Marcelo C Gonzalez", "Rittu S Raju", "James J Bontempo", "Keith D Goodfellow", "Chayse A Aubuchon", "Michael J Patterson"]
+center: "Glenn Research Center"
+ntrs_id: 20250001749
+pdf_url: "https://ntrs.nasa.gov/api/citations/20250001749/downloads/IEPC2025AdvNEXTAbstractv3.pdf"
+---
+
+This manuscript will describe recent technical work performed as part of the Advanced NEXT program, a joint effort between the U.S. Space Force, NASA, and private industry. The program aims to develop a versatile high thrust-to-power gridded ion propulsion system for commercial, military, and interplanetary applications. The technology leverages prior investments in the NASA's Evolutionary Xenon Thruster Commercial (NEXT-C) system, a technology demonstrated during the Double Asteroid Redirection Test (DART) mission. This paper will detail advancements in the propulsion system's design, including work on both the thruster and the power processing unit (PPU). The paper will present the results of a system integration test, along with the measured performance metrics. 
+
+The work completed thus far has included design, computational analysis, and experimental efforts. The PPU consists of six interconnected DC-DC converters and is designed to operate from a regulated spacecraft power bus. Four of the power supplies (neutralizer keeper, neutralizer and discharge cathode heaters, and accelerator grid) maintain the same technical specifications as the NEXT-C design, while the beam and discharge supplies have been modified to handle higher current levels. The primary thruster modifications relative to the NEXT-C design include a) the integration of carbon-based high-throughput ion optics, b) the addition of a discharge chamber baffle to eliminate a performance-limiting current density peak, and c) the modification of transmission cables to support higher current levels and thermal loads. The work to date has included design trade studies, subcomponent structural analysis, and preliminary lifetime estimates.  A series have tests have been conducted within Vacuum Facility 16 (VF16) at NASA GRC to establish the performance envelope of the engine.  A series of electrostatic probes have been used to measure the near-field current density, doubles-to-singles ion current, and thrust vector. The carbon-based ion optics and prototype PPU will be integrated with the EM6 thruster, and the test data will be presented. The electrostatic performance of the engine will be characterized, including measurements of perveance, electron back-streaming, ion transparency, and arc (‘recycle”) frequency. The efficiency of the PPU, defined as the ratio of the total power output from the beam, discharge, accelerator, and neutralizer supplies to the total input power from the high-power bus, will be reported.

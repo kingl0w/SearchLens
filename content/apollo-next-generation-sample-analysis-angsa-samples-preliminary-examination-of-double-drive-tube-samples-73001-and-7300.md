@@ -1,0 +1,15 @@
+---
+title: "Apollo Next Generation Sample Analysis (ANGSA) Samples: Preliminary Examination of Double Drive Tube Samples 73001 and 73002 and Lessons Learned for Returning to the Moon With Artemis"
+slug: "apollo-next-generation-sample-analysis-angsa-samples-preliminary-examination-of-double-drive-tube-samples-73001-and-7300"
+program: "Artemis"
+category: "Accepted Manuscript (Version with final changes)"
+tags: ["Lunar and Planetary Science and Exploration", "Exobiology", "drive tubes", "Curation", "ANGSA", "Preliminary Examination", "Artemis", "Sample return", "lessons learned", "Double drive tube", "Moon", "Apollo 17", "Taurus-Littrow Valley", "Lunar", "Apollo Next Generation Sample Analysis (ANGSA) initiative"]
+year: 2025
+excerpt: "During the six Apollo missions, astronauts collected 2196 lunar samples, nearly all of which have been studied over the past five decades. Six Apollo samples remained unexamined until 2019, saved to b"
+authors: ["Juliane Gross", "Ryan A Zeigler", "Andrea B Mosie", "Charis Krysher", "Scott A Eckley", "Richard A Ketcham", "Romy D Hanna", "David Edey", "Jeremy J Kent", "Francis M McCubbin", "Francesca McDonald", "Timon Schild", "Paul G Lucey", "Lingzhi Sun", "Abigail Flom", "Rita Parai", "Alex Meshik", "Olga Pravdivtseva", "Noah E Petro", "Charles K Shearer"]
+center: "Johnson Space Center"
+ntrs_id: 20250004900
+pdf_url: "https://ntrs.nasa.gov/api/citations/20250004900/downloads/Gross%20et%20al%20ANGSA%20PE%20merged.pdf"
+---
+
+During the six Apollo missions, astronauts collected 2196 lunar samples, nearly all of which have been studied over the past five decades. Six Apollo samples remained unexamined until 2019, saved to be analyzed by the next generation of lunar scientists using advanced mod-ern laboratory facilities. Now more than 50 years after Apollo, NASA is returning to the Moon with Artemis and will return geologic samples from a different region of the lunar surface than Apollo. Curation will play an instrumental role in helping to prepare for the safe return of these valuable samples, ensuring their integrity during all stages of the missions, and thus maximizing their scientific return. To prepare for the return of these samples, NASA initiated the Apollo Next Generation Sample Analysis (ANGSA) Program to open previously unstudied samples including unopened double drive tube 73002 and 73001 (also vacuum-sealed) from the Apollo 17 mission to the Taurus-Littrow Valley. The ANGSA program was designed to function as a low-cost analog sample return mission and served as a testing ground to understand processes, update techniques, and prepare for the preliminary examination (PE) for the to-be-returned lunar samples with Artemis. New and advanced curation techniques were developed and applied to support the analyses of 73002/73001 during the PE. Furthermore, cutting-edge analytical instruments such as X-ray Computed Tomography were utilized to aid in PE that were unavailable during Apollo. These efforts are equipping the Artemis generation for future lunar missions and lessons learned from PE of ANGSA samples will be directly applied to Artemis.

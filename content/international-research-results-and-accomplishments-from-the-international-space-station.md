@@ -1,0 +1,15 @@
+---
+title: "International Research Results and Accomplishments From the International Space Station"
+slug: "international-research-results-and-accomplishments-from-the-international-space-station"
+program: "Space Station"
+category: "Conference Paper"
+tags: ["Space Sciences (General)"]
+year: 2019
+excerpt: "In 2016, the International Space Station (ISS) partnership published the first-ever compilation of international ISS research publications resulting from research performed on the ISS through 2011. Th"
+authors: ["Ruttley, Tara M.", "Robinson, Julie A.", "Tate-Brown, Judy", "Perkins, Nekisha", "Cohen, Luchino", "Marcil, Isabelle", "Heppener, Marc", "Hatton, Jason", "Tasaki, Kazuyuki", "Umemura, Sayaka", "Karabadzhak, Georgy", "Sorokin, Igor V.", "Cotronei, Vittorio", "Sabbagh, Jean"]
+center: "Johnson Space Center"
+ntrs_id: 20160011588
+pdf_url: "https://ntrs.nasa.gov/api/citations/20160011588/downloads/20160011588.pdf"
+---
+
+In 2016, the International Space Station (ISS) partnership published the first-ever compilation of international ISS research publications resulting from research performed on the ISS through 2011. The International Space Station Research Accomplishments: An Analysis of Results From 2000-2011 is a collection of summaries of over 1,200 journal publications that describe ISS research in the areas of biology and biotechnology; Earth and space science; educational activities and outreach; human research; physical sciences; technology development and demonstration; and, results from ISS operations. This paper will summarize the ISS results publications obtained through 2011 on behalf of the ISS Program Science Forum that is made up of senior science representatives across the international partnership. NASA's ISS Program Science office maintains an online experiment database (www.nasa.gov/issscience) that tracks and communicates ISS research activities across the entire ISS partnership, and it is continuously updated. It captures ISS experiment summaries and results and includes citations to the journals, conference proceedings, and patents as they become available. The International Space Station Research Accomplishments: An Analysis of Results From 2000-2011 is a testament to the research that was underway even as the ISS laboratory was being built. It reflects the scientific knowledge gained from ISS research, and how it impact the fields of science in both space and traditional science disciplines on Earth. Now, during a time when utilization is at its busiest, and with extension of the ISS through at least 2024, the ISS partners work together to track the accomplishments and the new knowledge gained in a way that will impact humanity like no laboratory on Earth. The ISS Program Science Forum will continue to capture and report on these results in the form of journal publications, conference proceedings, and patents. We anticipate that successful ISS research will continue to contribute to the science literature in a way that helps to formulate new hypotheses and conclusions that will enable science advancements across a wide range of scientific disciplines both in space and on Earth.

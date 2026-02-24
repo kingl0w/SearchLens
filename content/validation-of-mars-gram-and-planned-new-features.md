@@ -1,0 +1,15 @@
+---
+title: "Validation of Mars-GRAM and Planned New Features"
+slug: "validation-of-mars-gram-and-planned-new-features"
+program: "Mars Exploration"
+category: "Preprint (Draft being sent to journal)"
+tags: ["Lunar And Planetary Science And Exploration"]
+year: 2019
+excerpt: "For altitudes below 80 km, Mars Global Reference Atmospheric Model (Mars-GRAM 2001) is based on output climatology from NASA Ames Mars General Circulation Model (MGCM). At COSPAR 2002, results were pr"
+authors: ["Justus, C. G.", "Duvall, Aleta", "Keller, Vernon W."]
+center: "Marshall Space Flight Center"
+ntrs_id: 20040086099
+pdf_url: "https://ntrs.nasa.gov/api/citations/20040086099/downloads/20040086099.pdf"
+---
+
+For altitudes below 80 km, Mars Global Reference Atmospheric Model (Mars-GRAM 2001) is based on output climatology from NASA Ames Mars General Circulation Model (MGCM). At COSPAR 2002, results were presented of validation tests of Mars-GRAM versus data from Mars Global Surveyor Thermal Emission Spectrometer (TES) and Radio Science (RS) experiment. Further validation tests are presented comparing Mars- GRAM densities with those from the European Mars Climate Database (MCD), and comparing densities from both Mars-GRAM and MCD against TES observations. Throughout most of the height and latitude range of TES data (040 km and 70s to 70N), good agreement is found between atmospheric densities from Mars-GRAM and MCD. However, at the season and latitude zone for Mars Phoenix arrival and landing (Ls = 65 to 80 degrees and latitude 65 to 75N), Mars-GRAM densities are about 30 to 45 percent higher than MCD densities near 40 km altitude. Further evaluation is warranted concerning potential impact of these model differences on planning for Phoenix entry and descent. Three planned features for Mars-GRAM update are also discussed: (1) new MGCM and Thermospheric General Circulation Model data sets to be used as a revised basis for Mars-GRAM mean atmosphere, (2) a new feature to represent planetary-scale traveling waves for upper altitude density variations (such as found during Mars Odyssey aerobraking), and (3) a new model for effects of high resolution topographic slope on winds near the surface (0 to 4.5 km above MOLA topography level). Mars-GRAM slope winds will be computed from a diagnostic (algebraic) relationship based on Ye, Segal, and Pielke (1990). This approach differs from mesoscale models (such as MRAMS and Mars MM5), which use prognostic, full-physics solutions of the time- and space-dependent differential equations of motion. As such, slope winds in Mars-GRAM will be consistent with its "engineering-level" approach, and will be extremely fast and easy to evaluate, compared with mesoscale model solutions. Mars-GRAM slope winds are not being suggested as a replacement for sophisticated, full-physics Mars mesoscale models, but may have value, particularly for preliminary screening of large numbers of candidate landing sites for future Mars missions, such as Phoenix and Mars Science Laboratory. Test output is presented from Mars-GRAM slope winds in the area of Gusev Crater and Valles Marineris.

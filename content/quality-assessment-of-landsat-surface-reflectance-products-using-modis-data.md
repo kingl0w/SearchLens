@@ -1,0 +1,15 @@
+---
+title: "Quality Assessment of Landsat Surface Reflectance Products Using MODIS Data"
+slug: "quality-assessment-of-landsat-surface-reflectance-products-using-modis-data"
+program: "Earth Science"
+category: "Reprint (Version printed in journal)"
+tags: ["Earth Resources And Remote Sensing", "Landsat", "MODIS", "reflectance"]
+year: 2019
+excerpt: "Surface reflectance adjusted for atmospheric effects is a primary input for land cover change detection and for developing many higher level surface geophysical parameters. With the development of aut"
+authors: ["Feng, Min", "Huang, Chengquan", "Channan, Saurabh", "Vermote, Eric", "Masek, Jeffrey G.", "Townshend, John R."]
+center: "Goddard Space Flight Center"
+ntrs_id: 20140009137
+pdf_url: "https://ntrs.nasa.gov/api/citations/20140009137/downloads/20140009137.pdf"
+---
+
+Surface reflectance adjusted for atmospheric effects is a primary input for land cover change detection and for developing many higher level surface geophysical parameters. With the development of automated atmospheric correction algorithms, it is now feasible to produce large quantities of surface reflectance products using Landsat images. Validation of these products requires in situ measurements, which either do not exist or are difficult to obtain for most Landsat images. The surface reflectance products derived using data acquired by the Moderate Resolution Imaging Spectroradiometer (MODIS), however, have been validated more comprehensively. Because the MODIS on the Terra platform and the Landsat 7 are only half an hour apart following the same orbit, and each of the 6 Landsat spectral bands overlaps with a MODIS band, good agreements between MODIS and Landsat surface reflectance values can be considered indicators of the reliability of the Landsat products, while disagreements may suggest potential quality problems that need to be further investigated. Here we develop a system called Landsat-MODIS Consistency Checking System (LMCCS). This system automatically matches Landsat data with MODIS observations acquired on the same date over the same locations and uses them to calculate a set of agreement metrics. To maximize its portability, Java and open-source libraries were used in developing this system, and object-oriented programming (OOP) principles were followed to make it more flexible for future expansion. As a highly automated system designed to run as a stand-alone package or as a component of other Landsat data processing systems, this system can be used to assess the quality of essentially every Landsat surface reflectance image where spatially and temporally matching MODIS data are available. The effectiveness of this system was demonstrated using it to assess preliminary surface reflectance products derived using the Global Land Survey (GLS) Landsat images for the 2000 epoch. As surface reflectance likely will be a standard product for future Landsat missions, the approach developed in this study can be adapted as an operational quality assessment system for those missions.

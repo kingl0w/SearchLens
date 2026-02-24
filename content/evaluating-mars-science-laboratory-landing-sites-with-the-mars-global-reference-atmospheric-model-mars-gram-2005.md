@@ -1,0 +1,15 @@
+---
+title: "Evaluating Mars Science Laboratory Landing Sites with the Mars Global Reference Atmospheric Model (Mars-GRAM 2005)"
+slug: "evaluating-mars-science-laboratory-landing-sites-with-the-mars-global-reference-atmospheric-model-mars-gram-2005"
+program: "Mars Exploration"
+category: "Extended Abstract"
+tags: ["Lunar And Planetary Science And Exploration"]
+year: 2019
+excerpt: "The Mars Global Reference Atmospheric Model (Mars-GRAM) is an engineering-level atmospheric model widely used for diverse mission applications. Mars-GRAM s perturbation modeling capability is commonly"
+authors: ["Justh, H. L.", "Justus, C. G."]
+center: "Marshall Space Flight Center"
+ntrs_id: 20090014182
+pdf_url: "https://ntrs.nasa.gov/api/citations/20090014182/downloads/20090014182.pdf"
+---
+
+The Mars Global Reference Atmospheric Model (Mars-GRAM) is an engineering-level atmospheric model widely used for diverse mission applications. Mars-GRAM s perturbation modeling capability is commonly used, in a Monte-Carlo mode, to perform high fidelity engineering end-to-end simulations for entry, descent, and landing (EDL) [1]. From the surface to 80 km altitude, Mars-GRAM is based on the NASA Ames Mars General Circulation Model (MGCM). Mars-GRAM and MGCM use surface topography from Mars Global Surveyor Mars Orbiter Laser Altimeter (MOLA), with altitudes referenced to the MOLA areoid, or constant potential surface. Traditional Mars-GRAM options for representing the mean atmosphere along entry corridors include: (1) Thermal Emission Spectrometer (TES) mapping years 1 and 2, with Mars-GRAM data coming from NASA Ames Mars General Circulation Model (MGCM) results driven by observed TES dust optical depth or (2) TES mapping year 0, with user-controlled dust optical depth and Mars-GRAM data interpolated from MGCM model results driven by selected values of globally-uniform dust optical depth. Mars-GRAM 2005 has been validated [2] against Radio Science data, and both nadir and limb data from TES [3]. There are several new features included in Mars-GRAM 2005. The first is the option to use input data sets from MGCM model runs that were designed to closely simulate conditions observed during the first two years of TES observations at Mars. The TES Year 1 option includes values from April 1999 through January 2001. The TES Year 2 option includes values from February 2001 through December 2002. The second new feature is the option to read and use any auxiliary profile of temperature and density versus altitude. In exercising the auxiliary profile Mars-GRAM option, values from the auxiliary profile replace data from the original MGCM databases. Some examples of auxiliary profiles include data from TES nadir or limb observations and Mars mesoscale model output at a particular location and time. The final new feature is the addition of two Mars-GRAM parameters that allow standard deviations of Mars-GRAM perturbations to be adjusted. The parameter rpscale can be used to scale density perturbations up or down while rwscale can be used to scale wind perturbations.

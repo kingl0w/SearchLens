@@ -1,0 +1,16 @@
+---
+title: "Wide-Field Hubble Space Telescope Observations of the Globular Cluster System in NGC 1399*"
+slug: "wide-field-hubble-space-telescope-observations-of-the-globular-cluster-system-in-ngc-1399"
+program: "Space Telescopes"
+category: "Reprint (Version printed in journal)"
+mission: "Hubble"
+tags: ["Astrophysics", "Astronomy", "Hubble", "Space", "Wide-Field"]
+year: 2019
+excerpt: "We present a comprehensive high spatial resolution imaging study of globular clusters (GCs) in NGC 1399, thecentral giant elliptical cD galaxy in the Fornax galaxy cluster, conducted with the Advanced"
+authors: ["Puzia, Thomas H.", "Paolillo, Maurizio", "Goudfrooij, Paul", "Maccarone, Thomas J.", "Fabbiano, Giuseppina", "Angelini, Lorella"]
+center: "Goddard Space Flight Center"
+ntrs_id: 20150008996
+pdf_url: "https://ntrs.nasa.gov/api/citations/20150008996/downloads/20150008996.pdf"
+---
+
+We present a comprehensive high spatial resolution imaging study of globular clusters (GCs) in NGC 1399, thecentral giant elliptical cD galaxy in the Fornax galaxy cluster, conducted with the Advanced Camera for Surveys(ACS) aboard theHubble Space Telescope(HST).Using a novel technique to construct drizzled point-spreadfunction libraries for HSTACS data, we accurately determine the fidelity of GC structural parameter measurementsfrom detailed artificial star cluster experiments and show the superior robustness of the GC half-light radius,rh,compared with other GC structural parameters, such as King core and tidal radius. The measurement ofrhfor themajor fraction of the NGC 1399 GC system reveals a trend of increasingrhversus galactocentric distance,Rgal,out to about 10 kpc and a flat relation beyond. This trend is very similar for blue and red GCs, which are found tohave a mean size ratio ofrh,redrh,blue0.820.11 at all galactocentric radii from the core regions of the galaxyout to40 kpc. This suggests that the size difference between blue and red GCs is due to internal mechanismsrelated to the evolution of their constituent stellar populations. Modeling the mass density profile of NGC 1399shows that additional external dynamical mechanisms are required to limit the GC size in the galaxy halo regionstorh2 pc. We suggest that this may be realized by an exotic GC orbit distribution function, an extended darkmatter halo, andor tidal stress induced by the increased stochasticity in the dwarf halo substructure at largergalactocentric distances. We compare our results with the GCrhdistribution functions in various galaxies and findthat the fraction of extended GCs withrh5 pc is systematically larger in late-type galaxies compared with GCsystems in early-type galaxies. This is likely due to the dynamically more violent evolution of early-type galaxies.We match our GCrhmeasurements with radial velocity data from the literature and split the resulting sample at themedianrhvalue into compact and extended GCs. We find that compact GCs show a significantly smaller line-of-sight velocity dispersion,cmp22525 km s1, than their extended counterparts,ext31721 km s1.Considering the weaker statistical correlation in the GCrhcolor and the GCrhRgalrelations, the more significantGC sizedynamics relation appears to be astrophysically more relevant and hints at the dominant influence of theGC orbit distribution function on the evolution of GC structural parameters.

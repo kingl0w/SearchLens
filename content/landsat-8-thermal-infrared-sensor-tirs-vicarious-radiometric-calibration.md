@@ -1,0 +1,16 @@
+---
+title: "Landsat-8 Thermal Infrared Sensor (TIRS) Vicarious Radiometric Calibration"
+slug: "landsat-8-thermal-infrared-sensor-tirs-vicarious-radiometric-calibration"
+program: "Earth Science"
+category: "Reprint (Version printed in journal)"
+mission: "Landsat"
+tags: ["Earth Resources And Remote Sensing", "TIIRS", "Calibrationa", "Radiometric"]
+year: 2019
+excerpt: "Launched in February 2013, the Landsat-8 carries on-board the Thermal Infrared Sensor (TIRS), a two-band thermal pushbroom imager, to maintain the thermal imaging capability of the Landsat program. Th"
+authors: ["Barsi, Julia A.", "Shott, John R.", "Raqueno, Nina G.", "Markham, Brian L.", "Radocinski, Robert G."]
+center: "Goddard Space Flight Center"
+ntrs_id: 20150000759
+pdf_url: "https://ntrs.nasa.gov/api/citations/20150000759/downloads/20150000759.pdf"
+---
+
+Launched in February 2013, the Landsat-8 carries on-board the Thermal Infrared Sensor (TIRS), a two-band thermal pushbroom imager, to maintain the thermal imaging capability of the Landsat program. The TIRS bands are centered at roughly 10.9 and 12 micrometers (Bands 10 and 11 respectively). They have 100 m spatial resolution and image coincidently with the Operational Land Imager (OLI), also on-board Landsat-8. The TIRS instrument has an internal calibration system consisting of a variable temperature blackbody and a special viewport with which it can see deep space; a two point calibration can be performed twice an orbit. Immediately after launch, a rigorous vicarious calibration program was started to validate the absolute calibration of the system. The two vicarious calibration teams, NASA/Jet Propulsion Laboratory (JPL) and the Rochester Institute of Technology (RIT), both make use of buoys deployed on large water bodies as the primary monitoring technique. RIT took advantage of cross-calibration opportunity soon after launch when Landsat-8 and Landsat-7 were imaging the same targets within a few minutes of each other to perform a validation of the absolute calibration. Terra MODIS is also being used for regular monitoring of the TIRS absolute calibration. The buoy initial results showed a large error in both bands, 0.29 and 0.51 W/sq m·sr·micrometers or -2.1 K and -4.4 K at 300 K in Band 10 and 11 respectively, where TIRS data was too hot. A calibration update was recommended for both bands to correct for a bias error and was implemented on 3 February 2014 in the USGS/EROS processing system, but the residual variability is still larger than desired for both bands (0.12 and 0.2 W/sq m·sr·micrometers or 0.87 and 1.67 K at 300 K). Additional work has uncovered the source of the calibration error: out-of-field stray light. While analysis continues to characterize the stray light contribution, the vicarious calibration work proceeds. The additional data have not changed the statistical assessment but indicate that the correction (particularly in band 11) is probably only valid for a subset of data. While the stray light effect is small enough in Band 10 to make the data useful across a wide array of applications, the effect in Band 11 is larger and the vicarious results suggest that Band 11 data should not be used where absolute calibration is required.

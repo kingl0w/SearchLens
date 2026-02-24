@@ -1,0 +1,15 @@
+---
+title: "SERVIR: From Space to Village. A Regional Monitoring and Visualization System For Environmental Management Using Satellite Applications For Sustainable Development"
+slug: "servir-from-space-to-village-a-regional-monitoring-and-visualization-system-for-environmental-management-using-satellite"
+program: "Earth Science"
+category: "Preprint (Draft being sent to journal)"
+tags: ["Earth Resources And Remote Sensing"]
+year: 2019
+excerpt: "NASA is committed to providing technological support and expertise to regional and national organizations for earth science monitoring and analysis. This commitment is exemplified by NASA's long-term"
+authors: ["Sever, Tom", "Stahl, H. Philip", "Irwin, Dan", "Lee, Daniel"]
+center: "Marshall Space Flight Center"
+ntrs_id: 20070032725
+pdf_url: "https://ntrs.nasa.gov/api/citations/20070032725/downloads/20070032725.pdf"
+---
+
+NASA is committed to providing technological support and expertise to regional and national organizations for earth science monitoring and analysis. This commitment is exemplified by NASA's long-term relationship with Central America. The focus of these efforts has primarily been to measure the impact of human development on the environment and to provide data for the management of human settlement and expansion in the region. Now, NASA is planning to extend and expand this capability to other regions of the world including Africa and the Caribbean. NASA began using satellite imagery over twenty-five years ago to locate important Maya archeological sites in Mesoamerica and to quantify the affect of deforestation on those sites. Continuing that mission, NASA has partnered with the U.S. Agency for International Development (USAID), the World Bank, the Water Center for the Humid Tropics of Latin America and the Caribbean (CATHALAC) and the Central American Commission for Environment and Development (CCAD) to develop SERVIR (Sistema Regional de Visualizacion y Monitoreo), for the Mesoamerican Biological Corridor. SERVIR has become one of the most important aspects of NASA's geospatial efforts in Central America by establishing a common access portal for information that affects the lives, livelihood and future of everyone in the region. SERVIR, most commonly referred to as a regional visualization and monitoring system, is a scientific and technological platform that integrates satellite and other geospatial data sets to generate tools for improved decision-making capabilities. It has a collection of data and models that are easily accessible to earth science managers, first responders, NGO's (Non-Government Organizations) and a host of others. SERVIR is currently used to monitor and forecast ecological changes as well as provide information for decision support during severe events such as forest fires, red tides,and tropical storms. Additionally, SERVIR addresses the nine societal benefit areas of the Global Earth Observation System (GEOSS): disasters, ecosystems, biodiversity, weather, water, climate, health, agriculture and energy.

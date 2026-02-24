@@ -1,0 +1,15 @@
+---
+title: "CERESMIP: A Climate Modeling Protocol to Investigate Recent Trends in the Earth's Energy Imbalance"
+slug: "ceresmip-a-climate-modeling-protocol-to-investigate-recent-trends-in-the-earth-s-energy-imbalance"
+program: "Earth Science"
+category: "Reprint (Version printed in journal)"
+tags: ["Meteorology and Climatology", "CMIP6", "climate modeling", "earth's energy balance", "aerosols", "cloud feedbacks", "AMIP"]
+year: 2023
+excerpt: "The Clouds and the Earth's Radiant Energy System (CERES) project has now produced over two decades of observed data on the Earth's Energy Imbalance (EEI) and has revealed substantive trends in both th"
+authors: ["Gavin A. Schmidt", "Timothy Andrews", "Susanne E. Bauer", "Paul J. Durack", "Norman G. Loeb", "V. Ramaswamy", "Nathan P. Arnold", "Michael G. Bosilovich", "Jason Cole", "Larry W. Horowitz", "Gregory C. Johnson", "John M. Lyman", "Brian Medeiros", "Takuro Michibata", "Dirk Olonscheck", "David J. Paynter", "Shiv Priyam Raghuraman", "Michael Schulz", "Daisuke Takasuka", "Vijay Tallapragada", "Patrick C. Taylor", "Tilo Ziehn"]
+center: "Goddard Space Flight Center"
+ntrs_id: 20230009851
+pdf_url: "https://ntrs.nasa.gov/api/citations/20230009851/downloads/GSchmidtFrontiersCERESMIPReprint.pdf"
+---
+
+The Clouds and the Earth's Radiant Energy System (CERES) project has now produced over two decades of observed data on the Earth's Energy Imbalance (EEI) and has revealed substantive trends in both the reflected shortwave and outgoing longwave top-of-atmosphere radiation components. Available climate model simulations suggest that these trends are incompatible with purely internal variability, but that the full magnitude and breakdown of the trends are outside of the model ranges. Unfortunately, the Coupled Model Intercomparison Project (Phase 6) (CMIP6) protocol only uses observed forcings to 2014 (and Shared Socioeconomic Pathways (SSP) projections thereafter), and furthermore, many of the ‘observed' drivers have been updated substantially since the CMIP6 inputs were defined. Most notably, the sea surface temperature (SST) estimates have been revised and now show up to 50% greater trends since 1979, particularly in the southern hemisphere. Additionally, estimates of short-lived aerosol and gas-phase emissions have been substantially updated. These revisions will likely have material impacts on the model-simulated EEI. We therefore propose a new, relatively low-cost, model intercomparison, CERESMIP, that would target the CERES period (2000-present), with updated forcings to at least the end of 2021. The focus will be on atmosphere-only simulations, using updated SST, forcings and emissions from 1990 to 2021. The key metrics of interest will be the EEI and atmospheric feedbacks, and so the analysis will benefit from output from satellite cloud observation simulators. The Tier 1 request would consist only of an ensemble of AMIP-style simulations, while the Tier 2 request would encompass uncertainties in the applied forcing, atmospheric composition, single and all-but-one forcing responses. We present some preliminary results and invite participation from a wide group of models.

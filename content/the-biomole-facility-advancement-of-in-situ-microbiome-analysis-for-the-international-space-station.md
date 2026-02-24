@@ -1,0 +1,15 @@
+---
+title: "The BioMole Facility: Advancement of In Situ Microbiome Analysis for the International Space Station"
+slug: "the-biomole-facility-advancement-of-in-situ-microbiome-analysis-for-the-international-space-station"
+program: "Space Station"
+category: "Presentation"
+tags: ["Aerospace Medicine"]
+year: 2022
+excerpt: "Characterization of the International Space Station (ISS) microbiome has been enabled by sample return and Earth-based analysis. As human exploration pushes beyond low-Earth orbit, microbial-related c"
+authors: ["Sarah L. Castro-Wallace", "Sarah Stahl-Rommel", "Janejit T. Gensler", "Hang N. Nguyen", "G. Marie Sharp", "Mark R. Fernandez", "Naeem Altaf", "Minsik Lee", "Miten Jain"]
+center: "Johnson Space Center"
+ntrs_id: 20220013040
+pdf_url: "https://ntrs.nasa.gov/api/citations/20220013040/downloads/BioMole_ASGSR_SWallace.pdf"
+---
+
+Characterization of the International Space Station (ISS) microbiome has been enabled by sample return and Earth-based analysis. As human exploration pushes beyond low-Earth orbit, microbial-related crew health, planetary protection, and space research requires in situ capabilities. Steps toward reducing Earth-dependence for complex sample analysis began in 2016 with the amplification of DNA within the miniPCR thermal cycler and DNA sequencing with the MinION sequencer onboard the ISS; for both, samples were prepared on Earth. In 2017, these platforms synergistically enabled the in-situ identification of unknown bacteria collected and cultured from ISS surfaces, thereby shifting the paradigm that microbial cultures had to be returned to Earth. The following year, a culture-independent, swab-to-sequencer method further advanced spaceflight microbiology, demonstrating that culturing could be excluded and provided enhanced insight into the bacterial profile of ISS surfaces. Based on the success of these payloads in confirming the ability to meet crew health identification requirements and the benefits accompanying a culture-independent method, the BioMole Facility was established by the medical operations Crew Health Care Systems team. BioMole is the set of hardware, consumables, and procedures required to support sample preparation and nanopore sequencing onboard the ISS. BioMole goals include expanding sample sources, comparing data to previous methods, demonstrating onboard data analytics, and validating new hardware. To date, comparative surface analysis, molecular- and culture-based, has been completed. Additionally, the demonstration of a sample-to-answer process was achieved when BioMole data was processed onboard using the IBM Open Data and AI Edge software platform installed on the ISS-residing Spaceborne Computer-2. The taxonomic profiles generated from the edge analysis were as expected and paralleled that of the downlinked processed data. Future BioMole efforts involve microbial profiling of the ISS water system, ISS validation of the MinION Mk1C, and an expansion to a research facility available to investigators.

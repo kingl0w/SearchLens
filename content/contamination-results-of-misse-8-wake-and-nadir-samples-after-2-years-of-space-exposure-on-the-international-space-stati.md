@@ -1,0 +1,15 @@
+---
+title: "Contamination Results of MISSE 8 Wake and Nadir Samples After 2 Years of Space Exposure on the International Space Station"
+slug: "contamination-results-of-misse-8-wake-and-nadir-samples-after-2-years-of-space-exposure-on-the-international-space-stati"
+program: "Space Station"
+category: "Technical Memorandum (TM)"
+tags: ["Spacecraft Design, Testing and Performance", "Erosion", "Low Earth Orbit", "Contamination", "Silicone", "Material", "International Space Station", "Experiment", "Space", "radiation", "Spaceflight", "experiment", "ISS", "LEO", "atomic"]
+year: 2024
+excerpt: "Spacecraft in low Earth orbit (LEO) are subjected to harsh environmental conditions, including radiation (cosmic rays, ultraviolet, x-ray and charged particle radiation), micrometeoroids and orbital d"
+authors: ["Kim K. De Groh", "Dorothy Lukco", "Bruce A. Banks", "Yuanchun Li"]
+center: "Glenn Research Center"
+ntrs_id: 20240004431
+pdf_url: "https://ntrs.nasa.gov/api/citations/20240004431/downloads/de%20Groh%20TM-20240004431.pdf"
+---
+
+Spacecraft in low Earth orbit (LEO) are subjected to harsh environmental conditions, including radiation (cosmic rays, ultraviolet, x-ray and charged particle radiation), micrometeoroids and orbital debris, temperature extremes, thermal cycling, and atomic oxygen. In addition, on-orbit spacecraft contamination is a serious spaceflight issue, with silicone contamination being a particular concern. In an effort to understand on-orbit contamination of Materials International Space Station Experiment 8 (MISSE 8) flight samples and other International Space Station (ISS) payloads, contamination studies were conducted post-flight on retrieved Teflon fluorinated ethylene propylene (FEP) samples flown in the wake and nadir orientations on MISSE 8. The wake sample was Teflon FEP (M8-W11) flown as part of the Glenn MISSE 8 Polymers Experiment on the Optical Reflector Materials Experiment-III Ram/Wake (ORMatE-III R/W) tray and exposed to the LEO wake environment for 2.0 years. The nadir samples were silver-Teflon FEP radiator pieces taken from the MISSE 8 Single Events Upset Xilinx-Sandia Experiment II (SEUXSE II) Power Box and exposed to the LEO nadir environment for 2.14 years. The Teflon FEP flight materials were analyzed for changes in surface morphology and chemistry as compared to pristine control samples. The wake samples were also analyzed for changes in optical properties. There was no evidence of a molecular contamination layer present on the surface of the MISSE 8 wake or nadir facing Teflon FEP flight samples, although both the wake and nadir flight samples contained particulate contamination in some regions. The analyzed nadir particles were primarily zinc rich. The majority of analyzed wake particles were comprised of oxidized aluminum with small amounts of zinc and magnesium. The wake particles appear to have arrived early in the mission (or pre-flight) during a single event. This paper provides details of the MISSE 8 sample contamination analyses.

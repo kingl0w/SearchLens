@@ -1,0 +1,15 @@
+---
+title: "Satellite Observation Systems for Polar Climate Change Studies"
+slug: "satellite-observation-systems-for-polar-climate-change-studies"
+program: "Earth Science"
+category: "Conference Paper"
+tags: ["Meteorology And Climatology"]
+year: 2019
+excerpt: "The key observational tools for detecting large scale changes of various parameters in the polar regions have been satellite sensors. The sensors include passive and active satellite systems in the vi"
+authors: ["Comiso, Josefino C."]
+center: "Goddard Space Flight Center"
+ntrs_id: 20120013483
+pdf_url: "https://ntrs.nasa.gov/api/citations/20120013483/downloads/20120013483.pdf"
+---
+
+The key observational tools for detecting large scale changes of various parameters in the polar regions have been satellite sensors. The sensors include passive and active satellite systems in the visible, infrared and microwave frequencies. The monitoring started with Tiros and Nimbus research satellites series in the 1970s but during the period, not much data was stored digitally because of limitations and cost of the needed storage systems. Continuous global data came about starting with the launch of ocean color, passive microwave, and thermal infrared sensors on board Nimbus-7 and Synthetic Aperture Radar, Radar Altimeter and Scatterometer on board SeaSat satellite both launched in 1978. The Nimbus-7 lasted longer than expected and provided about 9 years of useful data while SeaSat quit working after 3 months but provided very useful data that became the baseline for follow-up systems with similar capabilities. Over the years, many new sensors were launched, some from Japan Aeronautics and Space Agency (JAXA), some from the European Space Agency (ESA) and more recently, from RuSSia, China, Korea, Canada and India. For polar studies, among the most useful sensors has been the passive microwave sensor which provides day/night and almost all weather observation of the surface. The sensor provide sea surface temperature, precipitation, wind, water vapor and sea ice concentration data that have been very useful in monitoring the climate of the region. More than 30 years of such data are now available, starting with the Scanning Multichannel Microwave Radiometer (SMMR) on board the Nimbus-7, the Special Scanning Microwave/Imager (SSM/I) on board a Defense Meteorological Satellite Program (DMSP) and the Advanced Microwave Scanning Radiometer on board the EOS/ Aqua satellite. The techniques that have been developed to derive geophysical parameters from data provided by these and other sensors and associated instrumental and algorithm errors and validation techniques will be discussed. An important issue is the organization and storage of hundreds of terabytes of data collected by even just a few of these satellite sensors. Advances in mass storage and computer technology have made it possible to overcome many of the collection and archival problems and the availability of comprehensive satellite data sets put together by NASA's Earth Observing System project will be discussed.

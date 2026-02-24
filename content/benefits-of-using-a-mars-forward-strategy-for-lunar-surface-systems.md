@@ -1,0 +1,15 @@
+---
+title: "Benefits of Using a Mars Forward Strategy for Lunar Surface Systems"
+slug: "benefits-of-using-a-mars-forward-strategy-for-lunar-surface-systems"
+program: "Mars Exploration"
+category: "Conference Paper"
+tags: ["Lunar And Planetary Science And Exploration"]
+year: 2019
+excerpt: "This paper identifies potential risk reduction, cost savings and programmatic procurement benefits of a Mars Forward Lunar Surface System architecture that provides commonality or evolutionary develop"
+authors: ["Mulqueen, Jack", "Griffin, Brand", "Smitherman, David", "Maples, Dauphne"]
+center: "Marshall Space Flight Center"
+ntrs_id: 20090038178
+pdf_url: "https://ntrs.nasa.gov/api/citations/20090038178/downloads/20090038178.pdf"
+---
+
+This paper identifies potential risk reduction, cost savings and programmatic procurement benefits of a Mars Forward Lunar Surface System architecture that provides commonality or evolutionary development paths for lunar surface system elements applicable to Mars surface systems. The objective of this paper is to identify the potential benefits for incorporating a Mars Forward development strategy into the planned Project Constellation Lunar Surface System Architecture. The benefits include cost savings, technology readiness, and design validation of systems that would be applicable to lunar and Mars surface systems. The paper presents a survey of previous lunar and Mars surface systems design concepts and provides an assessment of previous conclusions concerning those systems in light of the current Project Constellation Exploration Architectures. The operational requirements for current Project Constellation lunar and Mars surface system elements are compared and evaluated to identify the potential risk reduction strategies that build on lunar surface systems to reduce the technical and programmatic risks for Mars exploration. Risk reduction for rapidly evolving technologies is achieved through systematic evolution of technologies and components based on Moore's Law superimposed on the typical NASA systems engineering project development "V-cycle" described in NASA NPR 7120.5. Risk reduction for established or slowly evolving technologies is achieved through a process called the Mars-Ready Platform strategy in which incremental improvements lead from the initial lunar surface system components to Mars-Ready technologies. The potential programmatic benefits of the Mars Forward strategy are provided in terms of the transition from the lunar exploration campaign to the Mars exploration campaign. By utilizing a sequential combined procurement strategy for lunar and Mars exploration surface systems, the overall budget wedges for exploration systems are reduced and the costly technological development gap between the lunar and Mars programs can be eliminated. This provides a sustained level of technological competitiveness as well as maintaining a stable engineering and manufacturing capability throughout the entire duration of Project Constellation.

@@ -1,0 +1,15 @@
+---
+title: "Human and Robotic Exploration Missions to Phobos Prior to Crewed Mars Surface Missions"
+slug: "human-and-robotic-exploration-missions-to-phobos-prior-to-crewed-mars-surface-missions"
+program: "Mars Exploration"
+category: "Conference Paper"
+tags: ["Spacecraft Design, Testing And Performance", "Spacecraft Propulsion And Power", "Lunar And Planetary Science And Exploration", "Cybernetics, Artificial Intelligence And Robotics"]
+year: 2019
+excerpt: "Phobos is a scientifically significant destination that would facilitate the development and operation of the human Mars transportation infrastructure, unmanned cargo delivery systems and other Mars s"
+authors: ["Gernhardt, Michael L.", "Chappell, Steven P.", "Bekdash, Omar S.", "Abercromby, Andrew F. J.", "Crues, Edwin Z.", "Li, Zu Qun", "Bielski, Paul", "Howe, A. Scott"]
+center: "Johnson Space Center"
+ntrs_id: 20170009183
+pdf_url: "https://ntrs.nasa.gov/api/citations/20170009183/downloads/20170009183.pdf"
+---
+
+Phobos is a scientifically significant destination that would facilitate the development and operation of the human Mars transportation infrastructure, unmanned cargo delivery systems and other Mars surface systems. In addition to developing systems relevant to Mars surface missions, Phobos offers engineering, operational, and public engagement opportunities that could enhance subsequent Mars surface operations. These opportunities include the use of low latency teleoperations to control Mars surface assets associated with exploration science, human landing-site selection and infrastructure development, which may include in situ resource utilization (ISRU) to provide liquid oxygen for the Mars Ascent Vehicle (MAV). A human mission to Mars' moons would be preceded by a cargo pre-deploy of a surface habitat and a pressurized excursion vehicle (PEV) to Mars orbit. Once in Mars orbit, the habitat and PEV would spiral to Phobos using solar electric propulsion based systems, with the habitat descending to the surface and the PEV remaining in orbit. When a crewed mission is launched to Phobos, it would include the remaining systems to support the crew during the Earth-Mars transit and to reach Phobos after insertion in to Mars orbit. The crew would taxi from Mars orbit to Phobos to join with the predeployed systems in a spacecraft that is based on a MAV, dock with and transfer to the PEV in Phobos orbit, and descend in the PEV to the surface habitat. A static Phobos surface habitat was chosen as a baseline architecture, in combination with the PEV that was used to descend from orbit as the main exploration vehicle. The habitat would, however, have limited capability to relocate on the surface to shorten excursion distances required by the PEV during exploration and to provide rescue capability should the PEV become disabled. To supplement exploration capabilities of the PEV, the surface habitat would utilize deployable EVA support structures that allow astronauts to work from portable foot restraints or body restrain tethers in the vicinity of the habitat. Prototype structures were tested as part of NEEMO 20.

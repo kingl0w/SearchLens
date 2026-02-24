@@ -1,0 +1,37 @@
+{
+  "name": "searchlens",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "index": "tsx scripts/index-content.ts",
+    "prebuild": "tsx scripts/index-content.ts",
+    "fetch-data": "tsx scripts/fetch-nasa-data.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.24",
+    "dotenv": "^17.3.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.575.0",
+    "marked": "^17.0.3",
+    "next": "^15.5.12",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "typesense": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.21.0"
+  }
+}

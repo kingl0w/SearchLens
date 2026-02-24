@@ -1,0 +1,15 @@
+---
+title: "Laboratory Investigations of the Complex Refractory Organic Material Produced from Irradiation of Pluto Ice Analogs"
+slug: "laboratory-investigations-of-the-complex-refractory-organic-material-produced-from-irradiation-of-pluto-ice-analogs"
+program: "Deep Space"
+category: "Abstract"
+tags: ["Astrophysics", "organics", "Ice irradiation", "Pluto"]
+year: 2019
+excerpt: "Much of Pluto's surface consists of N2 ice with smaller amounts of CH4 and CO ices. Despite the low temperature (approximately 45K), chemistry can be driven in the surface ices by radiation processing"
+authors: ["Materese, Christopher K.", "Cruikshank, Dale P.", "Sanford, Scott A.", "Imanaka, Hiroshi"]
+center: "Ames Research Center"
+ntrs_id: 20150000835
+pdf_url: "https://ntrs.nasa.gov/api/citations/20150000835/downloads/20150000835.pdf"
+---
+
+Much of Pluto's surface consists of N2 ice with smaller amounts of CH4 and CO ices. Despite the low temperature (approximately 45K), chemistry can be driven in the surface ices by radiation processing such as cosmic ray bombardment. When cosmic rays strike the surface, much of their energy is dispersed in the form of secondary electrons, which in turn drive much of the resulting chemical reactions. Laboratory experiments designed to simulate the conditions on these icy bodies may provide insight into this chemistry. Significant progress has been made in the laboratory toward understanding the smaller, simple compounds produced in the solid phase by radiation processing of (N2, CH4, CO) ices (Bohn et al. 1994; Moore & Hudson 2003; Hodyss et al. 2011; Kim and Kaiser 2012). Recently Materese et al. (2014) used a variety of techniques to better characterize the refractory materials produced from the UV photo-irradiation of N2:CH4:CO ices. However, because Pluto's atmosphere is optically thick to Lyman-alpha UV radiation it is important to re-examine the results using an alternate radiation source. Our latest work has consisted of the analysis of refractory materials produced from the electron bombardment of low temperature N2(‐), CH4(‐), and CO(‐)containing ices (100:1:1). The ice mixture was chosen to be analogous to the known surface ices on Pluto and the radiation source was chosen to mimic the secondary electrons produced by cosmic rays bombardment. The residues were studied using multiple chemical techniques including, infrared (IR) spectroscopy, X‐ray absorption near‐edge structure (XANES) spectroscopy, and gas chromatography coupled with mass spectrometry (GC‐MS). The organic residues produced in these experiments can be seen as an analog for the refractory component of the surface of Pluto, and are compared with the residues previously obtained from UV photo‐irradiation. UV and near‐ IR spectroscopy of the surfaces of Pluto and Charon during the encounter with NASA's New Horizons spacecraft in 2015, will give the first close‐up measurements of ices and their photoproducts. Laboratory measurements and experiments will provide a better context for the data returned by the spacecraft.

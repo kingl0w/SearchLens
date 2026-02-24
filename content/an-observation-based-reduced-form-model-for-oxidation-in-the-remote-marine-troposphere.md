@@ -1,0 +1,14 @@
+---
+title: "An Observation-Based, Reduced-Form Model for Oxidation in the Remote Marine Troposphere"
+slug: "an-observation-based-reduced-form-model-for-oxidation-in-the-remote-marine-troposphere"
+program: "Earth Science"
+category: "Accepted Manuscript (Version with final changes)"
+tags: ["Earth Resources and Remote Sensing", "Meteorology and Climatology"]
+year: 2023
+excerpt: "The hydroxyl radical (OH) fuels atmospheric chemical cycling as the main sink for methane and a driver of the formation and loss of many air pollutants, but direct OH observations are sparse. We devel"
+authors: ["Colleen B. Baublitz", "Arlene M. Fiore", "Sarah M. Ludwig", "Julie M. Nicely", "Glenn M. Wolfe", "Lee T. Murray", "Róisín Commane", "Michael J. Prather", "Daniel C. Anderson", "Gustavo Correa", "Bryan N. Duncan", "Melanie Follette-Cook", "Daniel M. Westervelt", "Ilann Bourgeois", "William H. Brune", "T. Paul Bui", "Joshua P. DiGangi", "Glenn S. Diskin", "Samuel R. Hall", "Kathryn McKain", "David O. Miller", "Jeff Peischl", "Alexander B. Thames", "Chelsea R. Thompson", "Kirk Ullmann", "Steven C. Wofsy"]
+center: "Goddard Space Flight Center"
+ntrs_id: 20230017442
+---
+
+The hydroxyl radical (OH) fuels atmospheric chemical cycling as the main sink for methane and a driver of the formation and loss of many air pollutants, but direct OH observations are sparse. We develop and evaluate an observation-based proxy for short term, spatial variations in OH (Proxy<sub>OH</sub>) in the remote marine troposphere using unprecedented and comprehensive measurements from the NASA Atmospheric Tomography (ATom) airborne campaign. Proxy<sub>OH</sub> is a reduced form of the OH steady-state equation representing the dominant OH production and loss pathways in the remote marine troposphere, according to box model simulations of OH constrained with ATom observations. Proxy<sub>OH</sub> comprises only eight variables that are generally observed by routine ground- or satellite-based instruments. ProxyOH scales linearly with in situ [OH] spatial variations along the ATom flight tracks (median r<sup>2</sup> = 0.90, interquartile range = 0.80 – 0.94 across 2 km altitude by 20° latitudinal regions). We deconstruct spatial variations in Proxy<sub>OH</sub> as a first-order approximation of the sensitivity of OH variations to individual terms. Two terms modulate within-region Proxy<sub>OH</sub> variations—water vapor (H<sub>2</sub>O) and, to a lesser extent, nitric oxide (NO). This implies that a limited set of observations could offer a novel avenue for observation-based mapping of OH spatial variations over much of the remote marine troposphere. Both H<sub>2</sub>O and NO are expected to change with climate, while NO also varies strongly with human activities. We also illustrate the utility of Proxy<sub>OH</sub> as a process-based approach for evaluating inter-model differences in remote marine tropospheric OH.

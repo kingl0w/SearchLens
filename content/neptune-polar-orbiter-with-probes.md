@@ -1,0 +1,15 @@
+---
+title: "Neptune Polar Orbiter with Probes"
+slug: "neptune-polar-orbiter-with-probes"
+program: "Deep Space"
+category: "Conference Paper"
+tags: ["Space Sciences (General)"]
+year: 2019
+excerpt: "The giant planets of the outer solar system divide into two distinct classes: the gas giants Jupiter and Saturn, which consist mainly of hydrogen and helium; and the ice giants Uranus and Neptune, whi"
+authors: ["Bienstock, Bernard", "Atkinson, David", "Baines, Kevin", "Mahaffy, Paul", "Steffes, Paul", "Atreya, Sushil", "Stern, Alan", "Wright, Michael", "Willenberg, Harvey", "Smith, David", "Frampton, Robert", "Sichi, Steve", "Peltz, Leora", "Masciarelli, James", "VanCleve, Jeffey"]
+center: "Ames Research Center"
+ntrs_id: 20070014629
+pdf_url: "https://ntrs.nasa.gov/api/citations/20070014629/downloads/20070014629.pdf"
+---
+
+The giant planets of the outer solar system divide into two distinct classes: the gas giants Jupiter and Saturn, which consist mainly of hydrogen and helium; and the ice giants Uranus and Neptune, which are believed to contain significant amounts of the heavier elements oxygen, nitrogen, and carbon and sulfur. Detailed comparisons of the internal structures and compositions of the gas giants with those of the ice giants will yield valuable insights into the processes that formed the solar system and, perhaps, other planetary systems. By 2012, Galileo, Cassini and possibly a Jupiter Orbiter mission with microwave radiometers, Juno, in the New Frontiers program, will have yielded significant information on the chemical and physical properties of Jupiter and Saturn. A Neptune Orbiter with Probes (NOP) mission would deliver the corresponding key data for an ice giant planet. Such a mission would ideally study the deep Neptune atmosphere to pressures approaching and possibly exceeding 1000 bars, as well as the rings, Triton, Nereid, and Neptune s other icy satellites. A potential source of power would be nuclear electric propulsion (NEP). Such an ambitious mission requires that a number of technical issues be investigated, however, including: (1) atmospheric entry probe thermal protection system (TPS) design, (2) probe structural design including seals, windows, penetrations and pressure vessel, (3) digital, RF subsystem, and overall communication link design for long term operation in the very extreme environment of Neptune's deep atmosphere, (4) trajectory design allowing probe release on a trajectory to impact Neptune while allowing the spacecraft to achieve a polar orbit of Neptune, (5) and finally the suite of science instruments enabled by the probe technology to explore the depths of the Neptune atmosphere. Another driving factor in the design of the Orbiter and Probes is the necessity to maintain a fully operational flight system during the lengthy transit time from launch through Neptune encounter, and throughout the mission. Following our response to the recent NASA Research Announcement (NRA) for Space Science Vision Missions for mission studies by NASA for implementation in the 2013 or later time frame, our team has been selected to explore the feasibility of such a Neptune mission.

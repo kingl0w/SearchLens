@@ -1,0 +1,16 @@
+---
+title: "Synergies Between the Kepler, K2 and TESS Missions with the PLATO Mission (Revised)"
+slug: "synergies-between-the-kepler-k2-and-tess-missions-with-the-plato-mission-revised"
+program: "Space Telescopes"
+category: "Presentation"
+mission: "Kepler"
+tags: ["Astrophysics", "exoplanet detection", "Kepler Missio", "transit survey"]
+year: 2019
+excerpt: "Two transit survey missions will have been flown by NASA prior to the launch of ESA's PLATO Mission in 2026, laying the groundwork for exoplanet discovery via the transit method. The Kepler Mission, w"
+authors: ["Jenkins, Jon M."]
+center: "Ames Research Center"
+ntrs_id: 20170012487
+pdf_url: "https://ntrs.nasa.gov/api/citations/20170012487/downloads/20170012487.pdf"
+---
+
+Two transit survey missions will have been flown by NASA prior to the launch of ESA's PLATO Mission in 2026, laying the groundwork for exoplanet discovery via the transit method. The Kepler Mission, which launched in 2009, collected data on its 100+ square degree field of view for four years before failure of a reaction wheel ended its primary mission. The results from Kepler include 2300+ confirmed or validated exoplanets, 2200+ planetary candidates, 2100+ eclipsing binaries. Kepler also revolutionized the field of asteroseismology by measuring the pressure mode oscillations of over 15000 solar-like stars spanning the lifecycle of such stars from hydrogen-burning dwarfs to helium-burning red giants. The re-purposed Kepler Mission, dubbed K2, continues to observe fields of view in and near the ecliptic plane for 80 days each, significantly broadening the scope of the astrophysical investigations as well as discovering an additional 156 exoplanets to date. The TESS mission will launch in 2017 to conduct an all-sky survey for small exoplanets orbiting stars 10X closer and 100X brighter than Kepler exoplanet host stars, allowing for far greater follow-up and characterization of their masses as well as their sizes for at least 50 small planets. Future assets such as James Webb Space Telescope, and ground-based assets such as ESOs Very Large Telescope (VLT) array, the Exremely Large Telescope (ELT), and the Thirty Meter Telescope (TMT) will be able to characterize the atmospheric composition and properties of these small planets. TESS will observe each 24 X 96 field of view for 30 days and thereby cover first the southern and then the northern hemisphere over 13 pointings during each year of the primary mission. The pole-most camera will observe the James Webb continuous viewing zone for one year in each hemisphere, permitting much longer period planets to be detected in this region. The PLATO mission will seek to detect habitable Earth-like planets with an instrument composed of 26 small telescopes in several 2232 square deg FOVs with a range of observation durations over a mission lifetime of up to eight years. This paper summarizes the findings of the KeplerK2 missions, previews the likely results from the TESS mission, and explores the lessons learned and to be learned from these prior missions that can be incorporated into the observation and data reduction strategy for the PLATO Mission so as to maximize the science return.

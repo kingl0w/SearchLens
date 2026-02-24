@@ -1,0 +1,15 @@
+---
+title: "Lunar Surface Concept of Operations for the Global Exploration Roadmap Lunar Surface Exploration Scenario"
+slug: "lunar-surface-concept-of-operations-for-the-global-exploration-roadmap-lunar-surface-exploration-scenario"
+program: "Mars Exploration"
+category: "Conference Paper"
+tags: ["Lunar And Planetary Science And Exploration"]
+year: 2021
+excerpt: "The International  Space Exploration Coordination Group (ISECG) is a voluntary, non-binding coordination forum of 26 space agencies. Building on the 2018 Global Exploration Roadmap (GER) and on growin"
+authors: ["Markus Landgraf", "Jennifer Reynolds", "Naoki Sato", "Kandyce Goodliff", "Clark Esty", "Martin Picard"]
+center: "Headquarters"
+ntrs_id: 20210021848
+pdf_url: "https://ntrs.nasa.gov/api/citations/20210021848/downloads/IAC-21-A5-1-5_Lunar%20Surface%20Conops%20GER%20-%20clean%20v2.docx.pdf"
+---
+
+The International  Space Exploration Coordination Group (ISECG) is a voluntary, non-binding coordination forum of 26 space agencies. Building on the 2018 Global Exploration Roadmap (GER) and on growing global interest  in space  exploration, ISECG’s  GER Supplement  (Aug 2020) captures  the latest developments  in lunar exploration planning in an updated Lunar Surface Exploration Scenario. The updated Lunar Surface Exploration Scenario describes a phased approach to implementing infrastructure and exploration on the lunar surface to meet the goals and objectives defined by the ISECG. The updated scenario starts with Boots on the Moon, where space agencies focus on sending humans to the Moon beginning in 2024 and robotic  exploration missions  to support  the  2024 goal  and later  phases.  Next  is  Phase  2,  Lunar Exploration—Expanding and Building, with an emphasis on completion of the proposed lunar surface objectives by exploring the lunar surface diversely and ultimately settling at the most beneficial site. Initial focus is on lunar surface exploration objectives pertaining to human landing and ascent, logistic cargo landers, and long-range traverses. The later focus is on lunar surface exploration objectives pertaining to long duration habitation, crew health and performance, and in-situ resource utilisation (ISRU). The third phase, Sustained Lunar Opportunities, envisages laying the foundation for   a   sustained   and   vibrant   lunar   presence   in   the   coming   decades   through   partnerships   with   international governments, academia and industry. During this phase, governments would shift their investment focus to further expand the frontier, including Mars exploration missions. This paper will describe the concept of operations by phase that supported the development of the updated scenario, along with refinements to those concepts of operations since the release of the updated scenario. By phase, the paper will describe the scenario, give an overview of the applicable architecture elements, identify functional requirements/needs of those elements, and include a discussion of nominal operations and contingency scenarios.

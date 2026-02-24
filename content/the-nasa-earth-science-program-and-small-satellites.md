@@ -1,0 +1,15 @@
+---
+title: "The NASA Earth Science Program and Small Satellites"
+slug: "the-nasa-earth-science-program-and-small-satellites"
+program: "Earth Science"
+category: "Conference Paper"
+tags: ["Earth Resources And Remote Sensing", "Spacecraft Design, Testing And Performance", "Earth Science Prog & Small Sat"]
+year: 2019
+excerpt: "Earth's changing environment impacts every aspect of life on our planet and climate change has profound implications on society. Studying Earth as a single complex system is essential to understanding"
+authors: ["Neeck, Steven P."]
+center: "Headquarters"
+ntrs_id: 20150022481
+pdf_url: "https://ntrs.nasa.gov/api/citations/20150022481/downloads/20150022481.pdf"
+---
+
+Earth's changing environment impacts every aspect of life on our planet and climate change has profound implications on society. Studying Earth as a single complex system is essential to understanding the causes and consequences of climate change and other global environmental concerns. NASA's Earth Science Division (ESD) shapes an interdisciplinary view of Earth, exploring interactions among the atmosphere, oceans, ice sheets, land surface interior, and life itself. This enables scientists to measure global and climate changes and to inform decisions by Government, other organizations, and people in the United States and around the world. The data collected and results generated are accessible to other agencies and organizations to improve the products and services they provide, including air quality indices, disaster prediction and response, agricultural yield projections, and aviation safety. ESD's Flight Program provides the spacebased observing systems and supporting infrastructure for mission operations and scientific data processing and distribution that support NASA's Earth science research and modeling activities. The Flight Program currently has 21 operating Earth observing space missions, including the recently launched Global Precipitation Measurement (GPM) mission, the Orbiting Carbon Observatory-2 (OCO-2), the Soil Moisture Active Passive (SMAP) mission, and the International Space Station (ISS) RapidSCAT and Cloud-Aerosol Transport System (CATS) instruments. The ESD has 22 more missions and instruments planned for launch over the next decade. These include first and second tier missions from the 2007 Earth Science Decadal Survey, Climate Continuity missions to assure availability of key climate data sets, and small-sized competitively selected orbital missions and instrument missions of opportunity belonging to the Earth Venture (EV) Program. Small satellites (~500 kg or less) are critical contributors to these current and future satellite missions. Some examples are the aforementioned Orbiting Carbon Observatory-2 (OCO-2), the Gravity Recovery and Climate Experiment Follow On (GRACE FO), and the Cyclone Global Navigation Satellite System (CYGNSS) microsatellite constellation. Small satellites also support ESD in space validation and risk reduction of enabling technologies (components and systems). The status of the ESD Flight Program and the role of small satellites will be discussed.

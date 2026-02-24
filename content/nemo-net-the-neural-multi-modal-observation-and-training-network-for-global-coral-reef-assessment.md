@@ -1,0 +1,15 @@
+---
+title: "NeMO-Net: The Neural Multi-Modal Observation and Training Network for Global Coral Reef Assessment"
+slug: "nemo-net-the-neural-multi-modal-observation-and-training-network-for-global-coral-reef-assessment"
+program: "Earth Science"
+category: "Abstract"
+tags: ["Earth Resources And Remote Sensing", "NeMO-Net", "Training Network", "Coral Reef"]
+year: 2019
+excerpt: "In the past decade, coral reefs worldwide have experienced unprecedented stresses due to climate change, ocean acidification, and anthropomorphic pressures, instigating massive bleaching and die-off o"
+authors: ["Chirayath, Ved"]
+center: "Ames Research Center"
+ntrs_id: 20170012136
+pdf_url: "https://ntrs.nasa.gov/api/citations/20170012136/downloads/20170012136.pdf"
+---
+
+In the past decade, coral reefs worldwide have experienced unprecedented stresses due to climate change, ocean acidification, and anthropomorphic pressures, instigating massive bleaching and die-off of these fragile and diverse ecosystems. Furthermore, remote sensing of these shallow marine habitats is hindered by ocean wave distortion, refraction and optical attenuation, leading invariably to data products that are often of low resolution and signal-to-noise (SNR) ratio. However, recent advances in UAV and Fluid Lensing technology have allowed us to capture multispectral 3D imagery of these systems at sub-cm scales from above the water surface, giving us an unprecedented view of their growth and decay. Exploiting the fine-scaled features of these datasets, machine learning methods such as MAP, PCA, and SVM can not only accurately classify the living cover and morphology of these reef systems (below 8 percent error), but are also able to map the spectral space between airborne and satellite imagery, augmenting and improving the classification accuracy of previously low-resolution datasets. We are currently implementing NeMO-Net, the first open-source deep convolutional neural network (CNN) and interactive active learning and training software to accurately assess the present and past dynamics of coral reef ecosystems through determination of percent living cover and morphology. NeMO-Net will be built upon the QGIS platform to ingest UAV, airborne and satellite datasets from various sources and sensor capabilities, and through data-fusion determine the coral reef ecosystem makeup globally at unprecedented spatial and temporal scales. To achieve this, we will exploit virtual data augmentation, the use of semi-supervised learning, and active learning through a tablet platform allowing for users to manually train uncertain or difficult to classify datasets. The project will make use of Pythons extensive libraries for machine learning, as well as extending integration to GPU and High-End Computing Capability (HECC) on the Pleiades supercomputing cluster, located at NASA Ames. The project is being supported by NASAs Earth Science Technology Office (ESTO) Advanced Information Systems Technology (AIST-16) Program.

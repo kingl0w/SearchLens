@@ -1,0 +1,15 @@
+---
+title: "A Deep Neural Network for Achieving Spectrally Consistent and Seamless Infrared Radiance Measurements Across Geostationary Satellite Domains"
+slug: "a-deep-neural-network-for-achieving-spectrally-consistent-and-seamless-infrared-radiance-measurements-across-geostationa"
+program: "Earth Science"
+category: "Conference Paper"
+tags: ["Earth Resources and Remote Sensing", "Meteorology and Climatology", "deep learning", "machine learning", "neural network", "calibration", "homogenization", "GEO-Ring", "VIIRS"]
+year: 2024
+excerpt: "The NASA Clouds and the Earth's Radiant Energy System (CERES) project provides the scientific community with observed  top-of-atmosphere  (TOA)  shortwave  and  longwave  fluxes  for  climate  monitor"
+authors: ["Benjamin Scarino", "David R. Doelling", "William L. Smith", "Conor Haney", "Rajendra Bhatt", "Arun Gopalan", "Prathana Khakurel"]
+center: "Langley Research Center"
+ntrs_id: 20240010233
+pdf_url: "https://ntrs.nasa.gov/api/citations/20240010233/downloads/SPIE_Scarino_2024_final.pdf"
+---
+
+The NASA Clouds and the Earth's Radiant Energy System (CERES) project provides the scientific community with observed  top-of-atmosphere  (TOA)  shortwave  and  longwave  fluxes  for  climate  monitoring  and  climate  model validation. To achieve this goal, CERES relies on TOA broadband fluxes derived from geostationary satellite (GEO) imagery to account for the diurnal flux variations between the CERES observation intervals. Consistent global flux derivation depends on accurate and consistent cloud retrievals. Scene-dependent spectral measurement inconsistency of the instruments that make up the contiguous ring of GEO observations (GEO-Ring), as well as limb darkening effects, can cause discontinuities in derived cloud properties and radiative fluxes at the boundaries of adjacent imager domains. Although the algorithms utilize radiative  transfer  models  to  account  for  instrument-band-dependent  atmospheric correction and viewing zenith angle (VZA) dependency, small discontinuities may persist due to uncertainties inherent to the multiple imager-specific algorithms. Furthermore, while hyperspectral-instrument-based spectral band adjustment factors may effectively account for spectrally induced bias, they are less effective at reducing variance owed to the specific composition of the viewed scene, which is challenging to robustly characterize. As such, this article highlights the use of a deep neural network (DNN) to resolve spectral-and VZA-induced biases between GEO-Ring imagers. The DNN  uses  available  infrared  (IR)  channels  from  the  GEO  instruments,  along  with viewing  and  solar illumination geometry, to estimate homogenized, VIIRS-like IR radiances for use in the GEO cloud algorithm. This approach is effective  at  mitigating  scene-dependent  spectral  variance and  VZA  dependency,  resulting  in  consistent  radiance measurements across the GEO-Ring, thereby leading toward a more seamless global cloud assessment.

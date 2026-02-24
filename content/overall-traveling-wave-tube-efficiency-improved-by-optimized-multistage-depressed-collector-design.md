@@ -1,0 +1,15 @@
+---
+title: "Overall Traveling-Wave-Tube Efficiency Improved By Optimized Multistage Depressed Collector Design"
+slug: "overall-traveling-wave-tube-efficiency-improved-by-optimized-multistage-depressed-collector-design"
+program: "Deep Space"
+category: "Other"
+tags: ["Mechanical Engineering"]
+year: 2018
+excerpt: "Depressed Collector Design The microwave traveling wave tube (TWT) is used widely for space communications and high-power airborne transmitting sources. One of the most important features in designing"
+authors: ["Vaden, Karl R."]
+center: "Glenn Research Center"
+ntrs_id: 20050201895
+pdf_url: "https://ntrs.nasa.gov/api/citations/20050201895/downloads/20050201895.pdf"
+---
+
+Depressed Collector Design The microwave traveling wave tube (TWT) is used widely for space communications and high-power airborne transmitting sources. One of the most important features in designing a TWT is overall efficiency. Yet, overall TWT efficiency is strongly dependent on the efficiency of the electron beam collector, particularly for high values of collector efficiency. For these reasons, the NASA Glenn Research Center developed an optimization algorithm based on simulated annealing to quickly design highly efficient multistage depressed collectors (MDC's). Simulated annealing is a strategy for solving highly nonlinear combinatorial optimization problems. Its major advantage over other methods is its ability to avoid becoming trapped in local minima. Simulated annealing is based on an analogy to statistical thermodynamics, specifically the physical process of annealing: heating a material to a temperature that permits many atomic rearrangements and then cooling it carefully and slowly, until it freezes into a strong, minimum-energy crystalline structure. This minimum energy crystal corresponds to the optimal solution of a mathematical optimization problem. The TWT used as a baseline for optimization was the 32-GHz, 10-W, helical TWT developed for the Cassini mission to Saturn. The method of collector analysis and design used was a 2-1/2-dimensional computational procedure that employs two types of codes, a large signal analysis code and an electron trajectory code. The large signal analysis code produces the spatial, energetic, and temporal distributions of the spent beam entering the MDC. An electron trajectory code uses the resultant data to perform the actual collector analysis. The MDC was optimized for maximum MDC efficiency and minimum final kinetic energy of all collected electrons (to reduce heat transfer). The preceding figure shows the geometric and electrical configuration of an optimized collector with an efficiency of 93.8 percent. The results show the improvement in collector efficiency from 89.7 to 93.8 percent, resulting in an increase of three overall efficiency points. In addition, the time to design a highly efficient MDC was reduced from a month to a few days. All work was done in-house at Glenn for the High Rate Data Delivery Program. Future plans include optimizing the MDC and TWT interaction circuit in tandem to further improve overall TWT efficiency.

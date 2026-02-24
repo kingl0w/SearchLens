@@ -1,0 +1,15 @@
+---
+title: "Benefits of International Collaboration on the International Space Station"
+slug: "benefits-of-international-collaboration-on-the-international-space-station"
+program: "Space Station"
+category: "Abstract"
+tags: ["Social And Information Sciences (General)", "Documentation And Information Science"]
+year: 2019
+excerpt: "The International Space Station is a valuable platform for research in space, but the benefits are limited if research is only conducted by individual countries. Through the efforts of the ISS Program"
+authors: ["Hasbrook, Pete", "Robinson, Julie A.", "Cohen, Luchino", "Marcil, Isabelle", "De Parolis, Lina", "Hatton, Jason", "Shirakawa, Masaki", "Karabadzhak, Georgy", "Sorokin, Igor V.", "Valentini, Giovanni"]
+center: "Johnson Space Center"
+ntrs_id: 20170002607
+pdf_url: "https://ntrs.nasa.gov/api/citations/20170002607/downloads/20170002607.pdf"
+---
+
+The International Space Station is a valuable platform for research in space, but the benefits are limited if research is only conducted by individual countries. Through the efforts of the ISS Program Science Forum, international science working groups, and interagency cooperation, international collaboration on the ISS has expanded as ISS utilization has matured. Members of science teams benefit from working with counterparts in other countries. Scientists and institutions bring years of experience and specialized expertise to collaborative investigations, leading to new perspectives and approaches to scientific challenges. Combining new ideas and historical results brings synergy and improved peer-reviewed scientific methods and results. World-class research facilities can be expensive and logistically complicated, jeopardizing their full utilization. Experiments that would be prohibitively expensive for a single country can be achieved through contributions of resources from two or more countries, such as crew time, up- and down mass, and experiment hardware. Cooperation also avoids duplication of experiments and hardware among agencies. Biomedical experiments can be completed earlier if astronauts or cosmonauts from multiple agencies participate. Countries responding to natural disasters benefit from ISS imagery assets, even if the country has no space agency of its own. Students around the world participate in ISS educational opportunities, and work with students in other countries, through open curriculum packages and through international competitions. Even experiments conducted by a single country can benefit scientists around the world, through specimen sharing programs and publicly accessible "open data" repositories. For ISS data, these repositories include GeneLab, the Physical Science Informatics System, and different Earth data systems. Scientists can conduct new research using ISS data without having to launch and execute their own experiments. Multilateral collections of research results publications, maintained by the ISS international partnership and accessible via nasa.gov, make ISS results available worldwide, and encourage new users, ideas and research.

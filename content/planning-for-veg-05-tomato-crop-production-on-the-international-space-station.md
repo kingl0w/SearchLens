@@ -1,0 +1,16 @@
+---
+title: "Planning for VEG-05 Tomato Crop Production on the International Space Station"
+slug: "planning-for-veg-05-tomato-crop-production-on-the-international-space-station"
+program: "Space Station"
+category: "Presentation"
+tags: ["Life Sciences (General)", "Veggie", "International Space Station", "Space Crop Production", "Tomato"]
+year: 2022
+excerpt: "Growing fresh, nutritious, palatable produce for crew consumption during spaceflight may provide health-promoting, bioavailable nutrients and enhance the astronaut dietary experience as we move toward"
+authors: ["Gioia D. Massa", "Jess M. Bunchek", "Grace L. Douglas", "Mary E. Hummerick", "Matthew W. Romeyn", "LaShelle E. Spencer", "Raymond M. Wheeler"]
+center: "Kennedy Space Center"
+ntrs_id: 20210026897
+---
+
+Growing fresh, nutritious, palatable produce for crew consumption during spaceflight may provide health-promoting, bioavailable nutrients and enhance the astronaut dietary experience as we move toward longer-duration missions.  Tending plants may also serve as a countermeasure for crew psychological stresses associated with spaceflight.  However, requirements to support consistent growth of a variety of nutritious crops under spaceflight environmental conditions remain unclear.  This study explores the potential to grow crops for consumption on the International Space Station (ISS) using the Veggie vegetable-production system.  Mizuna mustard was grown during VEG-04 studies in 2019, and human and plant data from those tests continue to be analyzed.  Tomato plants will be grown for the VEG-05 experiment, and preflight definition studies are underway to ascertain the best hardware and operations for growing this fruiting crop.  The variety of tomato selected for this study is ‘Red Robin’, a compact cherry tomato.  Plants will be grown under two different red: blue lighting treatments using the Veggie units on ISS, and the impact of spectral quality on plant growth and yield, nutrient content, organoleptic acceptability, and microbial composition of the tomatoes will be assessed.  Preliminary testing with this crop helped to identify responses to different analog types of growth hardware including both plant pillows and Passive Orbital Nutrient Delivery System (PONDS) units, and current testing is focusing on flight-like versions of this hardware.  Challenges with fertilizer salts leaching out into the plant wicks and burning the stems of tomato were observed in earlier tests, so amended fertilizer and wick configurations have been developed.  Crew procedures including plant thinning, watering, height adjustment with respect to lighting, and pollination are being validated.  VEG-05 will be the first test of tomato fruit production on ISS.  Lessons learned during preparation and implementation of the VEG-04 mizuna test for watering, and a separate ISS investigation with peppers (PH-04) in the Advanced Plant Habitat (APH)  in terms of fertilizer, plant wicks, and pollination, will be adapted for this experiment.  This research was co-funded by the Human Research Program and Space Biology (MTL#1075) in the ILSRA 2015 NRA call.  
+
+Note: Presentation is a video formatted mp4 with a run time of 3 mins. 24 secs.

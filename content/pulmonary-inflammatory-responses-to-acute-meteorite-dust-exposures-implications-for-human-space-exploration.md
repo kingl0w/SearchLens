@@ -1,0 +1,15 @@
+---
+title: "Pulmonary Inflammatory Responses To Acute Meteorite Dust Exposures - Implications For Human Space Exploration"
+slug: "pulmonary-inflammatory-responses-to-acute-meteorite-dust-exposures-implications-for-human-space-exploration"
+program: "Mars Exploration"
+category: "Conference Paper"
+tags: ["Aerospace Medicine"]
+year: 2019
+excerpt: "The previous manned missions to the Moon represent milestones of human ingenuity, perseverance, and intellectual curiosity. However, one of the major ongoing concerns is the array of hazards associate"
+authors: ["Harrington, A. D.", "McCubbin, F. M.", "Kaur, J.", "Smirnov, A.", "Galdanes, K.", "Schoonen, M. A. A.", "Chen, L. C.", "Tsirka, S. E.", "Gordon, T."]
+center: "Johnson Space Center"
+ntrs_id: 20170001337
+pdf_url: "https://ntrs.nasa.gov/api/citations/20170001337/downloads/20170001337.pdf"
+---
+
+The previous manned missions to the Moon represent milestones of human ingenuity, perseverance, and intellectual curiosity. However, one of the major ongoing concerns is the array of hazards associated with lunar surface dust. Not only did the dust cause mechanical and structural integrity issues with the suits, the dust 'storm' generated upon reentrance into the crew cabin caused "lunar hay fever" and "almost blindness" (Figure 1). It was further reported that the allergic response to the dust worsened with each exposure. The lack of gravity exacerbated the exposure, requiring the astronauts to wear their helmet within the module in order to avoid breathing the irritating particles. Due to the prevalence of these high exposures, the Human Research Roadmap developed by NASA identifies the Risk of Adverse Health and Performance Effects of Celestial Dust Exposure as an area of concern. Extended human exploration will further increase the probability of inadvertent and repeated exposures to celestial dusts. Going forward, hazard assessments of celestial dusts will be determined through sample return efforts prior to astronaut deployment. Studies on the lunar highland regolith indicate that the dust is not only respirable but also reactive, and previous studies concluded that it is moderately toxic; generating a greater response than titanium oxide but a lower response than quartz. The presence of reactive oxygen species (ROS) on the surface of the dust has been implicated. However, there is actually little data related to physicochemical characteristics of particulates and pulmonary toxicity, especially as it relates to celestial dust exposure. As a direct response to this deficit, the present study evaluates the role of a particulate's innate geochemical features (e.g., bulk chemistry, internal composition, morphology, size, and reactivity) in generating adverse toxicological responses in vitro and in vivo. This highly interdisciplinary study evaluates the relative toxicity of six meteorite samples representing either basalt or regolith breccia on the surfaces of the Moon, Mars, and Asteroid 4Vesta; three potential candidates for future human exploration or colonization. Terrestrial mid-ocean ridge basalt (MORB) is also used for comparison as a control sample.

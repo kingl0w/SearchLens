@@ -1,0 +1,15 @@
+---
+title: "Reflections on 20 Years of Research on the International Space Station"
+slug: "reflections-on-20-years-of-research-on-the-international-space-station"
+program: "Space Station"
+category: "Conference Paper"
+tags: ["Research And Support Facilities (Air)", "Space Sciences (General)", "International Space Station", "Microgravity Research", "ISS Benefits", "Human Spaceflight", "Space Technology Demonstration"]
+year: 2021
+excerpt: "November 2, 2000 began an era of continuous human presence on the International Space Station (ISS). That first crewed expedition to the ISS had few scientific instruments and facilities to work with,"
+authors: ["Bryan E Dansberry", "Kirt A Costello", "Luchino Cohen", "Andreas Manfred Schoen", "Thu Jennifer Ngo-Anh", "Masaki Shirakawa", "Kaoruko Sakamoto", "Georgy Karabadzhak", "Vasily Savinkov", "Igor V. Sorokin", "Vittorio Cotronei", "Giovanni Valentini", "Erin Anthony"]
+center: "Johnson Space Center"
+ntrs_id: 20210022178
+pdf_url: "https://ntrs.nasa.gov/api/citations/20210022178/downloads/IAC-21-B3.3.8%20Reflections%20on%2020%20Years%20of%20Research%20on%20the%20International%20Space%20Station%20-%20Dansberry.pdf"
+---
+
+November 2, 2000 began an era of continuous human presence on the International Space Station (ISS). That first crewed expedition to the ISS had few scientific instruments and facilities to work with, yet managed to conduct 52research investigations. Today, crew oversee upwards of 300 investigations during their time aboard.  Indeed, over the past  20  years  the  ISS  has  evolved  into  a  robust  laboratory  with dozens  of  research  facilities,  capabilities  for  the autonomous monitoring and conduct of research, and a growing array of scientific tools available and observational instruments active. As a result, the station has hosted more than 3,000 research investigations generating more than 2,400 scientific publications across every major discipline of science. The ISS Program Science Forum is composed of senior science representatives across the station’s international partnership. It provides multilateral science leadership to the ISS Program. Indeed, ISS research has evolved to become a truly international activity encompassing the participation of more than 4,000 investigators from over 100 countries whose research has been completed or is ongoing. This paper provides an overview of the research and technology development conducted to date and reflects upon the accomplishments, impacts and future direction of ISS research from the perspective of the member organizations of the Program Science Forum. Research areas which have been a focus of ISS research to date and key implications both for future space exploration and scientific advancement are presented. Major Earth benefits derived from ISS research are discussed. Finally, the paper provides insight into areas of  emphasis  for  future  research  including  the  maturation  of  technological  capabilities  needed  for  deep  space exploration, including lunar exploration programs such as Artemis and future missions to Mars

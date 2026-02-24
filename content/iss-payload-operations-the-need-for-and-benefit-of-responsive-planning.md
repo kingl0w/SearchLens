@@ -1,0 +1,15 @@
+---
+title: "ISS Payload Operations: The Need for and Benefit of Responsive Planning"
+slug: "iss-payload-operations-the-need-for-and-benefit-of-responsive-planning"
+program: "Space Station"
+category: "Preprint (Draft being sent to journal)"
+tags: ["Systems Analysis And Operations Research"]
+year: 2019
+excerpt: "International Space Station (ISS) payload operations are controlled through implementation of a payload operations plan. This plan, which represents the defined approach to payload operations in gener"
+authors: ["Nahay, Ed", "Boster, Mandee"]
+center: "Marshall Space Flight Center"
+ntrs_id: 20000064099
+pdf_url: "https://ntrs.nasa.gov/api/citations/20000064099/downloads/20000064099.pdf"
+---
+
+International Space Station (ISS) payload operations are controlled through implementation of a payload operations plan. This plan, which represents the defined approach to payload operations in general, can vary in terms of level of definition. The detailed plan provides the specific sequence and timing of each component of a payload's operations. Such an approach to planning was implemented in the Spacelab program. The responsive plan provides a flexible approach to payload operations through generalization. A responsive approach to planning was implemented in the NASA/Mir Phase 1 program, and was identified as a need during the Skylab program. The current approach to ISS payload operations planning and control tends toward detailed planning, rather than responsive planning. The use of detailed plans provides for the efficient use of limited resources onboard the ISS. It restricts flexibility in payload operations, which is inconsistent with the dynamic nature of the ISS science program, and it restricts crew desires for flexibility and autonomy. Also, detailed planning is manpower intensive. The development and implementation of a responsive plan provides for a more dynamic, more accommodating, and less manpower intensive approach to planning. The science program becomes more dynamic and responsive as the plan provides flexibility to accommodate real-time science accomplishments. Communications limitations and the crew desire for flexibility and autonomy in plan implementation are readily accommodated with responsive planning. Manpower efficiencies are accomplished through a reduction in requirements collection and coordination, plan development, and maintenance. Through examples and assessments, this paper identifies the need to transition from detailed to responsive plans for ISS payload operations. Examples depict specific characteristics of the plans. Assessments identify the following: the means by which responsive plans accommodate the dynamic nature of science programs and the crew desire for flexibility; the means by which responsive plans readily accommodate ISS communications constraints; manpower efficiencies to be achieved through use of responsive plans; and the implications of responsive planning relative to resource utilization efficiency.

@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-background: #fafafa;
+  --color-deep-space: #0a0e1a;
+  --color-nasa-orange: #e05230;
+  --color-instrument-blue: #2563eb;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-search-highlight: #fef08a;
+
+  --color-program-apollo: #d4a017;
+  --color-program-shuttle: #9ca3af;
+  --color-program-mars: #dc2626;
+  --color-program-telescopes: #7c3aed;
+  --color-program-deep-space: #0d9488;
+  --color-program-station: #2563eb;
+  --color-program-artemis: #ea580c;
+  --color-program-earth: #16a34a;
+  --color-program-aeronautics: #475569;
+  --color-program-propulsion: #d97706;
+
+  /*font families — variables set by next/font/google on <html>*/
+  --font-heading: var(--font-heading), "Space Grotesk", sans-serif;
+  --font-body: var(--font-body), "DM Sans", sans-serif;
+  --font-reading: var(--font-reading), "Source Serif 4", serif;
+  --font-mono: var(--font-mono), "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-mono);
+}
+
+.prose {
+  font-family: var(--font-reading);
+  --tw-prose-body: var(--color-text-primary);
+  --tw-prose-headings: var(--color-text-primary);
+  --tw-prose-links: var(--color-instrument-blue);
+  --tw-prose-bold: var(--color-text-primary);
+  --tw-prose-counters: var(--color-text-secondary);
+  --tw-prose-bullets: var(--color-text-secondary);
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: var(--color-text-secondary);
+  --tw-prose-quote-borders: var(--color-nasa-orange);
+  --tw-prose-captions: var(--color-text-secondary);
+  --tw-prose-code: var(--color-text-primary);
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: var(--color-deep-space);
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+}
+
+.prose :where(h2, h3, h4):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-family: var(--font-heading);
+  scroll-margin-top: 5rem;
+}
+
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+.prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-family: var(--font-mono);
+  border-radius: 0.5rem;
+}
+
+.hero-starfield {
+  background-color: var(--color-deep-space);
+  background-image:
+    radial-gradient(ellipse at 15% 60%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 25%, rgba(224, 82, 48, 0.06) 0%, transparent 50%),
+    radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+}

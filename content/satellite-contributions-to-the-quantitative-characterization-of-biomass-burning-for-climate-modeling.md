@@ -1,0 +1,15 @@
+---
+title: "Satellite Contributions to the Quantitative Characterization of Biomass Burning for Climate Modeling"
+slug: "satellite-contributions-to-the-quantitative-characterization-of-biomass-burning-for-climate-modeling"
+program: "Earth Science"
+category: "Preprint (Draft being sent to journal)"
+tags: ["Meteorology And Climatology"]
+year: 2019
+excerpt: "Characterization of biomass burning from space has been the subject of an extensive body of literature published over the last few decades. Given the importance of this topic, we review how satellite"
+authors: ["Ichoku, Charles", "Kahn, Ralph", "Chin, Mian"]
+center: "Goddard Space Flight Center"
+ntrs_id: 20120013651
+pdf_url: "https://ntrs.nasa.gov/api/citations/20120013651/downloads/20120013651.pdf"
+---
+
+Characterization of biomass burning from space has been the subject of an extensive body of literature published over the last few decades. Given the importance of this topic, we review how satellite observations contribute toward improving the representation of biomass burning quantitatively in climate and air-quality modeling and assessment. Satellite observations related to biomass burning may be classified into five broad categories: (i) active fire location and energy release, (ii) burned areas and burn severity, (iii) smoke plume physical disposition, (iv) aerosol distribution and particle properties, and (v) trace gas concentrations. Each of these categories involves multiple parameters used in characterizing specific aspects of the biomass-burning phenomenon. Some of the parameters are merely qualitative, whereas others are quantitative, although all are essential for improving the scientific understanding of the overall distribution (both spatial and temporal) and impacts of biomass burning. Some of the qualitative satellite datasets, such as fire locations, aerosol index, and gas estimates have fairly long-term records. They date back as far as the 1970s, following the launches of the DMSP, Landsat, NOAA, and Nimbus series of earth observation satellites. Although there were additional satellite launches in the 1980s and 1990s, space-based retrieval of quantitative biomass burning data products began in earnest following the launch of Terra in December 1999. Starting in 2000, fire radiative power, aerosol optical thickness and particle properties over land, smoke plume injection height and profile, and essential trace gas concentrations at improved resolutions became available. The 2000s also saw a large list of other new satellite launches, including Aqua, Aura, Envisat, Parasol, and CALIPSO, carrying a host of sophisticated instruments providing high quality measurements of parameters related to biomass burning and other phenomena. These improved data products have enabled significant progress in the study of biomass burning from space. However, appreciable uncertainty remains in many of the measurements that still needs to be addressed. Nevertheless, climate and other atmospheric models are

@@ -1,0 +1,16 @@
+---
+title: "A Flexible Lunar Architecture for Exploration (FLARE) Supporting NASA’s Artemis Program"
+slug: "a-flexible-lunar-architecture-for-exploration-flare-supporting-nasa-s-artemis-program"
+program: "Apollo"
+category: "Reprint (Version printed in journal)"
+mission: "Artemis Program"
+tags: ["Lunar And Planetary Science And Exploration", "Moon 2024", "Artemis 3", "Lunar architecture", "SpaceTug", "Lunar lander", "Lunar ATV", "Lunar human exploration", "NASA Artemis program", "Lunar human architecture", "Lunar human lander", "Lunar All-Terrain vehicle (LATV)"]
+year: 2020
+excerpt: "The Flexible Lunar Architecture for Exploration (FLARE) is a concept to deliver four crew to the lunar surface for a minimum of seven days and then return them safely to Earth. FLARE can be implemente"
+authors: ["Michael E. Evans", "Lee D. Graham"]
+center: "Johnson Space Center"
+ntrs_id: 20205001817
+pdf_url: "https://ntrs.nasa.gov/api/citations/20205001817/downloads/A-Flexible-Lunar-Architecture-for-Exploration--FLARE--suppo_2020_Acta-Astron.pdf"
+---
+
+The Flexible Lunar Architecture for Exploration (FLARE) is a concept to deliver four crew to the lunar surface for a minimum of seven days and then return them safely to Earth. FLARE can be implemented whenever the component vehicles are operational. FLARE was developed as an alternative to NASA’s Human Landing System (HLS) reference architecture from the Design Analysis Cycle (DAC) #2 created in 2019. The DAC2 guidelines required utilization of the Gateway vehicle in a Near- Rectilinear Halo Orbit (NRHO). Instead, FLARE chooses a Low Lunar Frozen Polar Orbit (LLFPO) for lunar rendezvous of components, and an optional Gateway vehicle. The LLFPO provides a stable orbit that overflies the south pole every 2 h, ensuring easy access to the lunar surface for surface aborts with a much lower propellant requirement than NRHO. The minimum FLARE concept uses one Space Launch System (SLS) launch, one Orion, one European Service Module (ESM), and one human lander (launched on commercial vehicle(s)). FLARE adds the SpaceTug, based upon the mature and successful ULA “Common” Centaur Upper Stage vehicle, with modifications to create an Earth-Moon transfer vehicle. In the FLARE baseline mission, the SpaceTug provides propulsion needed to return the Orion + ESM from LLFPO to Earth. The SpaceTug also provides propulsion to deliver the separate human lander components – the Descent Element (DE) and the Ascent Element (AE) - from Low Earth Orbit (LEO) to LLFPO. The SLS Block 1 then launches the Orion + ESM and completes a rendezvous with the mated DE + AE components in LLFPO. FLARE offers optional phases beyond the baseline mission. The SpaceTug can deliver components of the planned Gateway, including the Power and Propulsion Element (PPE) and the Habitable and Logistics Outpost (HALO), to LLFPO. FLARE provides an option to deliver precursor equipment to the lunar surface to enhance and extend the human mission. With these components, including an inflatable habitation module and airlock, individual crew mobility vehicle(s), an In-Situ Resource Utilization (ISRU) demonstration, and science and technology experiments, the crew can explore and conduct science on the lunar surface for up to 14 days.

@@ -1,0 +1,15 @@
+---
+title: "Recent Variability Observations of Solar System Giant Planets: Fresh Context for Understanding Exoplanet and Brown Dwarf Weather"
+slug: "recent-variability-observations-of-solar-system-giant-planets-fresh-context-for-understanding-exoplanet-and-brown-dwarf-"
+program: "Space Telescopes"
+category: "Abstract"
+tags: ["Astronomy", "Lunar And Planetary Science And Exploration", "giant planets", "brown dwarf variability"]
+year: 2019
+excerpt: "Over the past several years a number of high cadence photometric observations of solar system giant planets have been acquired by various platforms. Such observations are of interest as they provide p"
+authors: ["Marley, Mark Scott"]
+center: "Ames Research Center"
+ntrs_id: 20160012390
+pdf_url: "https://ntrs.nasa.gov/api/citations/20160012390/downloads/20160012390.pdf"
+---
+
+Over the past several years a number of high cadence photometric observations of solar system giant planets have been acquired by various platforms. Such observations are of interest as they provide points of comparison to the already expansive set of brown dwarf variability observations and the small, but growing, set of exoplanet variability observations. By measuring how rapidly the integrated light from solar system giant planets can evolve, variability observations of substellar objects that are unlikely to ever be resolved can be placed in a fuller context. Examples of brown dwarf variability observations include extensive work from the ground (e.g., Radigen et al. 2014), Spitzer (e.g., Metchev et al. 2015), Kepler (Gizis et al. 2015), and HST (Yang et al. 2015).Variability has been measured on the planetary mass companion to the brown dwarf 2MASS 1207b (Zhou et al. 2016) and further searches are planned in thermal emission for the known directly imaged planets with ground based telescopes (Apai et al. 2016) and in reflected light with future space based telescopes. Recent solar system variability observations include Kepler monitoring of Neptune (Simon et al. 2016) and Uranus, Spitzer observations of Neptune (Stauffer et al. 2016), and Cassini observations of Jupiter (West et al. in prep). The Cassini observations are of particular interest as they measured the variability of Jupiter at a phase angle of approximately 60 deg, comparable to the viewing geometry expected for space based direct imaging of cool extrasolar Jupiters in reflected light. These solar system analog observations capture many of the characteristics seen in brown dwarf variability, including large amplitudes and rapid light curve evolution on timescales as short as a few rotation periods. Simon et al. (2016) attribute such variations at Neptune to a combination of large scale, stable cloud structures along with smaller, more rapidly varying, cloud patches. The observed brown dwarf and exoplanet variability may well arise from comparable cloud structures. In my presentation I will compare and contrast the nature of the variability observed for the various solar system and other substelar objects and present a wish list for future observations.

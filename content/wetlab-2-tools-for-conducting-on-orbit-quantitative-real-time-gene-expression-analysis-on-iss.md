@@ -1,0 +1,15 @@
+---
+title: "WetLab-2: Tools for Conducting On-Orbit Quantitative Real-Time Gene Expression Analysis on ISS"
+slug: "wetlab-2-tools-for-conducting-on-orbit-quantitative-real-time-gene-expression-analysis-on-iss"
+program: "Space Station"
+category: "Abstract"
+tags: ["Life Sciences (General)", "quantitative PCR", "gene expression", "ISS tools"]
+year: 2019
+excerpt: "The objective of NASA Ames Research Centers WetLab-2 Project is to place on the ISS a research platform capable of conducting gene expression analysis via quantitative real-time PCR (qRT-PCR) of biolo"
+authors: ["Parra, Macarena", "Almeida, Eduardo", "Boone, Travis", "Jung, Jimmy", "Schonfeld, Julie"]
+center: "Ames Research Center"
+ntrs_id: 20150000125
+pdf_url: "https://ntrs.nasa.gov/api/citations/20150000125/downloads/20150000125.pdf"
+---
+
+The objective of NASA Ames Research Centers WetLab-2 Project is to place on the ISS a research platform capable of conducting gene expression analysis via quantitative real-time PCR (qRT-PCR) of biological specimens sampled or cultured on orbit. The project has selected a Commercial-Off-The-Shelf (COTS) qRT-PCR system, the Cepheid SmartCycler and will fly it in its COTS configuration. The SmartCycler has a number of advantages including modular design (16 independent PCR modules), low power consumption, rapid ramp times and the ability to detect up to four separate fluorescent channels at one time enabling multiplex assays that can be used for normalization and to study multiple genes of interest in each module. The team is currently working with Cepheid to enable the downlink of data from the ISS to the ground and provide uplink capabilities for programming, commanding, monitoring, and instrument maintenance. The project has adapted commercial technology to design a module that can lyse cells and extract RNA of sufficient quality and quantity for use in qRT-PCR reactions while using a housekeeping gene to normalize RNA concentration and integrity. The WetLab-2 system is capable of processing multiple sample types ranging from microbial cultures to animal tissues dissected on-orbit. The ability to conduct qRT-PCR on-orbit eliminates the confounding effects on gene expression of reentry stresses and shock acting on live cells and organisms or the concern of RNA degradation of fixed samples. The system can be used to validate terrestrial analyses of samples returned from ISS by providing on-orbit gene expression benchmarking prior to sample return. The ability to get on orbit data will provide investigators with the opportunity to adjust experiment parameters for subsequent trials based on the real-time data analysis without need for sample return and re-flight. Researchers will also be able to sample multigenerational changes in organisms. Finally, the system can be used for analysis of air, surface, water, and clinical samples to monitor environmental contaminants and crew health. The verification flight of the instrument is scheduled to launch on SpaceX-7 in June 2015.

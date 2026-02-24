@@ -1,0 +1,15 @@
+---
+title: "An Overview of the Microgravity Science Glovebox (MSG) Facility and the Research Performed in the MSG on the International Space Station (ISS)"
+slug: "an-overview-of-the-microgravity-science-glovebox-msg-facility-and-the-research-performed-in-the-msg-on-the-international"
+program: "Space Station"
+category: "Abstract"
+tags: ["Space Processing"]
+year: 2019
+excerpt: "The Microgravity Science Glovebox (MSG) is a rack facility aboard the International Space Station (ISS) designed for investigation handling. The MSG was built by the European Space Agency (ESA) which"
+authors: ["Jordan, Lee P."]
+center: "Marshall Space Flight Center"
+ntrs_id: 20140011630
+pdf_url: "https://ntrs.nasa.gov/api/citations/20140011630/downloads/20140011630.pdf"
+---
+
+The Microgravity Science Glovebox (MSG) is a rack facility aboard the International Space Station (ISS) designed for investigation handling. The MSG was built by the European Space Agency (ESA) which also provides sustaining engineering support for the facility. The MSG has been operating on the ISS since July 2002 and is currently located in the US Laboratory Module. The unique design of the facility allows it to accommodate science and technology investigations in a "workbench" type environment. The facility has an enclosed working volume that is held at a negative pressure with respect to the crew living area. This allows the facility to provide two levels of containment for small parts, particulates, fluids, and gases. This containment approach protects the crew from possible hazardous operations that take place inside the MSG work volume. Research investigations operating inside the MSG are provided a large 255 liter enclosed work space, 1000 watts of dc power via a versatile supply interface (120, 28, +/- 12, and 5 Vdc), 1000 watts of cooling capability, video and data recording and real time downlink, ground commanding capabilities, access to ISS Vacuum Exhaust and Vacuum Resource Systems, and gaseous nitrogen supply. These capabilities make the MSG one of the most utilized facilities on ISS. The MSG has been used for over 14500 hours of scientific payload operations. MSG investigations involve research in cryogenic fluid management, fluid physics, spacecraft fire safety, materials science, combustion, plant growth, and life support technology. The MSG facility is operated by the Payloads Operations Integration Center at Marshall Space flight Center. Payloads may also operate remotely from different telescience centers located in the United States and Europe. The investigative Payload Integration Manager (iPIM) is the focal to assist organizations that have payloads operating in the MSG facility. NASA provides an MSG engineering unit for payload developers to verify that their hardware is operating properly before actual operation on the ISS. This paper will provide an overview of the MSG facility, a synopsis of the research that has already been accomplished in the MSG, and an overview of video and biological upgrades.
