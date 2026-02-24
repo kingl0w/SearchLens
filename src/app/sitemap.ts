@@ -3,7 +3,7 @@ import { getDocumentSlugs } from "@/lib/content";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://searchlens.example.com";
+const BASE_URL = "https://searchlens.space";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugs = getDocumentSlugs();

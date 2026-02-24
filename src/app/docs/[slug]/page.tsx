@@ -24,7 +24,7 @@ import {
 import { getProgramBadgeStyle } from "@/lib/programs";
 import TableOfContents from "@/components/TableOfContents";
 
-const BASE_URL = "https://searchlens.example.com";
+const BASE_URL = "https://searchlens.space";
 
 function formatAuthors(authors: string[]): string {
   if (authors.length === 0) return "";
@@ -50,19 +50,40 @@ export async function generateMetadata({
 
   const url = `${BASE_URL}/docs/${slug}`;
 
+  const metaParts = [doc.program, doc.year > 0 ? String(doc.year) : null]
+    .filter(Boolean)
+    .join(", ");
+  const metaDescription = metaParts
+    ? `${doc.excerpt} (${metaParts})`
+    : doc.excerpt;
+
+  const ogDescParts = [
+    doc.program && `NASA ${doc.program}`,
+    doc.year > 0 && `published ${doc.year}`,
+    doc.authors.length > 0 && `by ${formatAuthors(doc.authors)}`,
+  ].filter(Boolean);
+  const ogDescription = ogDescParts.length
+    ? `${doc.excerpt} — ${ogDescParts.join(", ")}`
+    : doc.excerpt;
+
   return {
-    title: `${doc.title} — SearchLens`,
-    description: doc.excerpt,
+    title: doc.title,
+    description: metaDescription,
     alternates: {
       canonical: url,
     },
     openGraph: {
       title: doc.title,
-      description: doc.excerpt,
+      description: ogDescription,
       url,
       type: "article",
       siteName: "SearchLens",
       authors: doc.authors,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: doc.title,
+      description: metaDescription,
     },
   };
 }
