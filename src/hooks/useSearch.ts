@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useRef, useEffect } from "react";
-import { getSearchClient, COLLECTION_NAME } from "@/lib/typesense";
+import { COLLECTION_NAME } from "@/lib/typesense";
 import type { FacetGroup, SearchHit } from "@/lib/types";
 
 const PER_PAGE = 12;
@@ -57,7 +57,6 @@ function buildFilterBy(activeFacets: ActiveFacets): string {
   for (const [field, values] of Object.entries(activeFacets)) {
     if (values.length === 0) continue;
     if (NUMERICAL_FIELDS.has(field)) {
-      //int32 fields: bare numbers, no backticks
       parts.push(`${field}:=[${values.join(",")}]`);
     } else {
       const escaped = values.map((v) => "`" + v + "`");
@@ -68,11 +67,7 @@ function buildFilterBy(activeFacets: ActiveFacets): string {
 }
 
 export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
-  const {
-    initialQuery = "",
-    initialPage = 1,
-    initialFacets = {},
-  } = options;
+  const { initialQuery = "", initialPage = 1, initialFacets = {} } = options;
 
   const [query, setQueryRaw] = useState(initialQuery);
   const [results, setResults] = useState<SearchHit[]>([]);
@@ -86,15 +81,7 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const clientRef = useRef<ReturnType<typeof getSearchClient> | null>(null);
   const didInitRef = useRef(false);
-
-  function getClient() {
-    if (!clientRef.current) {
-      clientRef.current = getSearchClient();
-    }
-    return clientRef.current;
-  }
 
   const executeSearch = useCallback(
     async (q: string, pg: number, af: ActiveFacets) => {
@@ -106,37 +93,38 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
       setError(null);
 
       try {
-        const client = getClient();
         const filterBy = buildFilterBy(af);
 
-        const response = await client
-          .collections<TSDoc>(COLLECTION_NAME)
-          .documents()
-          .search(
-            {
-              q: q || "*",
-              query_by: "title,body,excerpt",
-              facet_by: FACET_FIELDS,
-              highlight_full_fields: "title,body",
-              highlight_start_tag: "<mark>",
-              highlight_end_tag: "</mark>",
-              per_page: PER_PAGE,
-              page: pg,
-              ...(filterBy ? { filter_by: filterBy } : {}),
-            },
-            { abortSignal: controller.signal },
-          );
+        const params = new URLSearchParams({
+          q: q || "*",
+          query_by: "title,body,excerpt",
+          facet_by: FACET_FIELDS,
+          highlight_full_fields: "title,body",
+          highlight_start_tag: "<mark>",
+          highlight_end_tag: "</mark>",
+          per_page: String(PER_PAGE),
+          page: String(pg),
+          ...(filterBy ? { filter_by: filterBy } : {}),
+        });
+
+        const res = await fetch(`/api/search?${params.toString()}`, {
+          signal: controller.signal,
+        });
 
         if (controller.signal.aborted) return;
 
-        const hits: SearchHit[] = (response.hits ?? []).map((hit) => ({
+        if (!res.ok) throw new Error(`Search request failed: ${res.status}`);
+
+        const response = await res.json();
+
+        const hits: SearchHit[] = (response.hits ?? []).map((hit: any) => ({
           document: {
             ...hit.document,
             body: hit.document.body,
             word_count: hit.document.word_count,
             pdf_url: undefined,
           },
-          highlights: (hit.highlights ?? []).map((h) => ({
+          highlights: (hit.highlights ?? []).map((h: any) => ({
             field: String(h.field),
             snippet: h.snippet ?? "",
             matched_tokens: (h.matched_tokens ?? []).flat(),
@@ -144,13 +132,13 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
         }));
 
         const facetGroups: FacetGroup[] = (response.facet_counts ?? []).map(
-          (fc) => ({
+          (fc: any) => ({
             field_name: String(fc.field_name),
-            counts: fc.counts.map((c) => ({
+            counts: fc.counts.map((c: any) => ({
               value: c.value,
               count: c.count,
             })),
-          }),
+          })
         );
 
         setResults(hits);
@@ -158,7 +146,6 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
         setTotalFound(response.found);
         setTotalPages(Math.ceil(response.found / PER_PAGE));
       } catch (err: unknown) {
-        //silence cancellation/abort errors from AbortController, fetch, typesense, and axios
         if (controller.signal.aborted) return;
         if (err instanceof DOMException && err.name === "AbortError") return;
         if (err instanceof Error) {
@@ -166,32 +153,26 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
           if (msg.includes("abort") || msg.includes("cancel")) return;
         }
 
-        const message =
-          err instanceof Error ? err.message : "Search failed";
+        const message = err instanceof Error ? err.message : "Search failed";
         setError(message);
         setResults([]);
         setFacets([]);
         setTotalFound(0);
         setTotalPages(0);
       } finally {
-        //skip reset only when a newer request has taken over (abortRef points to the new controller)
         if (!controller.signal.aborted || abortRef.current === controller) {
           setIsLoading(false);
         }
       }
     },
-    [],
+    []
   );
 
   useEffect(() => {
     if (didInitRef.current) return;
     didInitRef.current = true;
     executeSearch(initialQuery, initialPage, initialFacets);
-
-    return () => {
-      //reset so StrictMode remount re-fires initial search
-      didInitRef.current = false;
-    };
+    return () => { didInitRef.current = false; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -199,13 +180,12 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
     (q: string) => {
       setQueryRaw(q);
       setPageRaw(1);
-
       if (debounceRef.current) clearTimeout(debounceRef.current);
       debounceRef.current = setTimeout(() => {
         executeSearch(q, 1, activeFacets);
       }, DEBOUNCE_MS);
     },
-    [activeFacets, executeSearch],
+    [activeFacets, executeSearch]
   );
 
   const setPage = useCallback(
@@ -213,7 +193,7 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
       setPageRaw(p);
       executeSearch(query, p, activeFacets);
     },
-    [query, activeFacets, executeSearch],
+    [query, activeFacets, executeSearch]
   );
 
   const toggleFacet = useCallback(
@@ -224,13 +204,12 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
           ? current.filter((v) => v !== value)
           : [...current, value];
         const updated = { ...prev, [field]: next };
-
         setPageRaw(1);
         executeSearch(query, 1, updated);
         return updated;
       });
     },
-    [query, executeSearch],
+    [query, executeSearch]
   );
 
   const clearFacets = useCallback(() => {
@@ -247,18 +226,8 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
   }, []);
 
   return {
-    query,
-    setQuery,
-    results,
-    facets,
-    activeFacets,
-    toggleFacet,
-    clearFacets,
-    page,
-    setPage,
-    totalPages,
-    totalFound,
-    isLoading,
-    error,
+    query, setQuery, results, facets, activeFacets,
+    toggleFacet, clearFacets, page, setPage,
+    totalPages, totalFound, isLoading, error,
   };
 }

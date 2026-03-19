@@ -1,0 +1,21 @@
+services:
+  searchlens:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3001:3000"
+    environment:
+      - NODE_ENV=production
+      - TYPESENSE_HOST=typesense
+      - TYPESENSE_PORT=8108
+      - TYPESENSE_PROTOCOL=http
+      - TYPESENSE_ADMIN_API_KEY=${TYPESENSE_API_KEY}
+      - TYPESENSE_SEARCH_KEY=${TYPESENSE_SEARCH_KEY}
+    networks:
+      - indexpress_default
+
+networks:
+  indexpress_default:
+    external: true
