@@ -102,6 +102,11 @@ export default function SearchPageContent() {
     };
   }, [drawerOpen]);
 
+  const drawerClearAll = useCallback(() => {
+    search.clearFacets();
+    setDrawerOpen(false);
+  }, [search.clearFacets]);
+
   const hasResults = search.results.length > 0;
   const hasQuery = search.query.length > 0;
   const hasFilters = Object.values(search.activeFacets).some(
@@ -160,24 +165,37 @@ export default function SearchPageContent() {
         </aside>
 
         <div className="min-w-0 flex-1">
-          {(hasQuery || hasFilters) && hasResults && !search.isLoading && (
+          {hasResults && !search.isLoading && (
             <p className="mb-4 text-sm text-text-secondary">
-              Showing{" "}
-              <span className="font-medium tabular-nums text-text-primary">
-                {startResult}&ndash;{endResult}
-              </span>{" "}
-              of{" "}
-              <span className="font-medium tabular-nums text-text-primary">
-                {search.totalFound.toLocaleString()}
-              </span>{" "}
-              results
-              {hasQuery && (
+              {hasQuery ? (
                 <>
-                  {" "}
-                  for{" "}
+                  Showing{" "}
+                  <span className="font-medium tabular-nums text-text-primary">
+                    {startResult}&ndash;{endResult}
+                  </span>{" "}
+                  of{" "}
+                  <span className="font-medium tabular-nums text-text-primary">
+                    {search.totalFound.toLocaleString()}
+                  </span>{" "}
+                  results for{" "}
                   <span className="font-medium text-text-primary">
                     &lsquo;{search.query}&rsquo;
                   </span>
+                </>
+              ) : (
+                <>
+                  {hasFilters ? "Showing" : "Browse all"}{" "}
+                  <span className="font-medium tabular-nums text-text-primary">
+                    {hasFilters
+                      ? `${startResult}\u2013${endResult} of ${search.totalFound.toLocaleString()}`
+                      : search.totalFound.toLocaleString()}
+                  </span>{" "}
+                  documents
+                  {!hasFilters && (
+                    <span className="text-text-secondary/70">
+                      {" "}&middot; newest first
+                    </span>
+                  )}
                 </>
               )}
             </p>
@@ -205,61 +223,59 @@ export default function SearchPageContent() {
         </div>
       </div>
 
-      {drawerOpen && (
-        <>
-          <div
-            className="fixed inset-0 z-40 bg-black/40 lg:hidden"
+      {/* Drawer overlay — always in DOM for animation */}
+      <div
+        className={`fixed inset-0 z-40 bg-black/40 transition-opacity duration-200 lg:hidden ${
+          drawerOpen ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
+        onClick={() => setDrawerOpen(false)}
+        aria-hidden="true"
+      />
+
+      {/* Drawer panel — always in DOM, slides via translate */}
+      <div
+        role="dialog"
+        aria-modal={drawerOpen}
+        aria-label="Filter results"
+        aria-hidden={!drawerOpen}
+        className={`fixed inset-y-0 left-0 z-50 flex w-[300px] max-w-[85vw] flex-col bg-white shadow-xl transition-transform duration-200 ease-out lg:hidden ${
+          drawerOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
+          <h2 className="font-heading text-sm font-semibold text-text-primary">
+            Filters
+          </h2>
+          <button
+            ref={drawerCloseRef}
+            type="button"
             onClick={() => setDrawerOpen(false)}
-            aria-hidden="true"
-          />
-
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label="Filter results"
-            className="fixed inset-y-0 left-0 z-50 flex w-[300px] max-w-[85vw] flex-col bg-white shadow-xl lg:hidden"
+            className="rounded-md p-2 text-text-secondary transition-colors hover:bg-gray-100 hover:text-text-primary"
+            aria-label="Close filters"
           >
-            <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
-              <h2 className="font-heading text-sm font-semibold text-text-primary">
-                Filters
-              </h2>
-              <button
-                ref={drawerCloseRef}
-                type="button"
-                onClick={() => setDrawerOpen(false)}
-                className="rounded-md p-1 text-text-secondary transition-colors hover:bg-gray-100 hover:text-text-primary"
-                aria-label="Close filters"
-              >
-                <X size={20} />
-              </button>
-            </div>
+            <X size={20} />
+          </button>
+        </div>
 
-            <div className="flex-1 overflow-y-auto px-4 py-4">
-              <FacetFilters
-                facets={search.facets}
-                activeFacets={search.activeFacets}
-                onToggle={(field, value) => {
-                  search.toggleFacet(field, value);
-                }}
-                onClearAll={() => {
-                  search.clearFacets();
-                  setDrawerOpen(false);
-                }}
-              />
-            </div>
+        <div className="flex-1 overflow-y-auto px-4 py-4">
+          <FacetFilters
+            facets={search.facets}
+            activeFacets={search.activeFacets}
+            onToggle={search.toggleFacet}
+            onClearAll={drawerClearAll}
+          />
+        </div>
 
-            <div className="border-t border-gray-100 px-4 py-3">
-              <button
-                type="button"
-                onClick={() => setDrawerOpen(false)}
-                className="w-full rounded-lg bg-instrument-blue px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-instrument-blue/90"
-              >
-                Show results
-              </button>
-            </div>
-          </div>
-        </>
-      )}
+        <div className="border-t border-gray-100 px-4 py-3">
+          <button
+            type="button"
+            onClick={() => setDrawerOpen(false)}
+            className="w-full rounded-lg bg-instrument-blue px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-instrument-blue/90"
+          >
+            Show results
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

@@ -42,11 +42,11 @@ export default function TableOfContents({
           <li key={id}>
             <a
               href={`#${id}`}
-              className={`block text-sm py-1 border-l-2 transition-colors ${
+              className={`block text-sm py-2 border-l-2 transition-colors ${
                 level === 3 ? "pl-6" : "pl-3"
               } ${
                 activeId === id
-                  ? "border-nasa-orange text-nasa-orange font-medium"
+                  ? "border-instrument-blue text-instrument-blue font-medium"
                   : "border-transparent text-text-secondary hover:text-text-primary hover:border-gray-300"
               }`}
             >

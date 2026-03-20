@@ -3,13 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
-  Calendar,
-  Clock,
   FileText,
   ExternalLink,
   Download,
-  Users,
-  Building2,
   ChevronLeft,
   ChevronRight,
   BookOpen,
@@ -134,82 +130,73 @@ export default async function DocPage({ params }: DocPageProps) {
         <div className="mt-6 lg:grid lg:grid-cols-[1fr_240px] lg:gap-10">
           <article className="min-w-0">
             <header>
-              <div className="flex flex-wrap items-center gap-2 mb-4">
+              {/* Tier 1 — context: program, category, mission, year */}
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-text-secondary">
                 {doc.program && (
                   <span
-                    className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold font-heading ${getProgramBadgeStyle(doc.program)}`}
+                    className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold ${getProgramBadgeStyle(doc.program)}`}
                   >
                     {doc.program}
                   </span>
                 )}
                 {doc.category && (
-                  <span className="text-xs text-text-secondary font-mono">
-                    {doc.category}
-                  </span>
+                  <span className="font-mono">{doc.category}</span>
+                )}
+                {doc.mission && (
+                  <>
+                    <span className="text-gray-300" aria-hidden="true">/</span>
+                    <span className="font-mono font-medium text-text-primary">
+                      {doc.mission}
+                    </span>
+                  </>
+                )}
+                {doc.year > 0 && (
+                  <>
+                    <span className="text-gray-300" aria-hidden="true">/</span>
+                    <span className="font-mono tabular-nums">{doc.year}</span>
+                  </>
                 )}
               </div>
 
-              <h1 className="font-heading text-3xl sm:text-4xl lg:text-[2.5rem] font-bold leading-tight tracking-tight text-text-primary">
+              {/* Tier 2 — title */}
+              <h1 className="mt-4 mb-4 font-heading text-2xl md:text-3xl font-bold leading-tight tracking-tight text-text-primary">
                 {doc.title}
               </h1>
 
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 mt-4 text-sm text-text-secondary">
-                {doc.mission && (
-                  <span className="font-mono font-medium text-text-primary">
-                    {doc.mission}
-                  </span>
-                )}
-                {doc.year > 0 && (
-                  <span className="inline-flex items-center gap-1">
-                    <Calendar className="w-3.5 h-3.5" aria-hidden="true" />
-                    {doc.year}
-                  </span>
-                )}
-                <span className="inline-flex items-center gap-1">
-                  <Clock className="w-3.5 h-3.5" aria-hidden="true" />
-                  {readTime} min read
-                </span>
-                <span className="inline-flex items-center gap-1">
-                  <FileText className="w-3.5 h-3.5" aria-hidden="true" />
-                  {doc.word_count.toLocaleString()} words
-                </span>
-              </div>
+              {/* Tier 3 — secondary metadata: authors, center, word count, read time */}
+              <p className="text-sm text-text-secondary">
+                {[
+                  doc.authors.length > 0 && formatAuthors(doc.authors),
+                  doc.center,
+                  `${doc.word_count.toLocaleString()} words`,
+                  `${readTime} min read`,
+                ]
+                  .filter(Boolean)
+                  .join(" \u00B7 ")}
+              </p>
 
-              {doc.authors.length > 0 && (
-                <div className="flex items-start gap-1.5 mt-3 text-sm text-text-secondary">
-                  <Users className="w-3.5 h-3.5 mt-0.5 shrink-0" aria-hidden="true" />
-                  <span>{formatAuthors(doc.authors)}</span>
-                </div>
-              )}
-
-              {doc.center && (
-                <div className="flex items-center gap-1.5 mt-1.5 text-sm text-text-secondary">
-                  <Building2 className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-                  <span>{doc.center}</span>
-                </div>
-              )}
-
-              <div className="flex flex-wrap items-center gap-3 mt-5">
-                {doc.ntrs_id && (
-                  <a
-                    href={`https://ntrs.nasa.gov/citations/${doc.ntrs_id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-medium text-instrument-blue hover:underline"
-                  >
-                    View on NASA NTRS
-                    <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-                  </a>
-                )}
+              {/* Action buttons */}
+              <div className="flex flex-wrap items-center gap-3 mt-6">
                 {doc.pdf_url && (
                   <a
                     href={doc.pdf_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-medium text-instrument-blue hover:underline"
+                    className="inline-flex items-center gap-2 rounded-lg bg-instrument-blue px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-instrument-blue/90"
                   >
+                    <Download className="w-4 h-4" aria-hidden="true" />
                     Download PDF
-                    <Download className="w-3.5 h-3.5" aria-hidden="true" />
+                  </a>
+                )}
+                {doc.ntrs_id && (
+                  <a
+                    href={`https://ntrs.nasa.gov/citations/${doc.ntrs_id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-text-primary transition-colors hover:bg-gray-50"
+                  >
+                    View on NTRS
+                    <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
                   </a>
                 )}
               </div>
@@ -218,7 +205,7 @@ export default async function DocPage({ params }: DocPageProps) {
             <hr className="my-8 border-gray-200" />
 
             <div
-              className="prose prose-lg max-w-none"
+              className="prose md:prose-lg max-w-none"
               dangerouslySetInnerHTML={{ __html: doc.body }}
             />
 
@@ -238,7 +225,7 @@ export default async function DocPage({ params }: DocPageProps) {
                         className="group block rounded-lg border border-gray-200 p-4 hover:border-instrument-blue/40 hover:shadow-sm transition-all"
                       >
                         <span
-                          className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold font-heading mb-2 ${getProgramBadgeStyle(rel.program)}`}
+                          className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold mb-2 ${getProgramBadgeStyle(rel.program)}`}
                         >
                           {rel.program}
                         </span>

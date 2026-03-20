@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { Search, X } from "lucide-react";
 
 interface SearchBoxProps {
@@ -19,17 +19,6 @@ export default function SearchBox({
   autoFocus = false,
 }: SearchBoxProps) {
   const inputRef = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
-        e.preventDefault();
-        inputRef.current?.focus();
-      }
-    }
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, []);
 
   return (
     <div className="relative w-full">
@@ -64,7 +53,7 @@ export default function SearchBox({
             <button
               type="button"
               onClick={() => onQueryChange("")}
-              className="rounded-md p-1 text-text-secondary transition-colors hover:bg-gray-100 hover:text-text-primary"
+              className="rounded-md p-2 -mr-1 text-text-secondary transition-colors hover:bg-gray-100 hover:text-text-primary"
               aria-label="Clear search"
             >
               <X size={16} />

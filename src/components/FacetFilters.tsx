@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { memo, useState } from "react";
 import { ChevronDown, X } from "lucide-react";
 import type { FacetGroup } from "@/lib/types";
 import type { ActiveFacets } from "@/hooks/useSearch";
@@ -12,7 +12,6 @@ const FACET_LABELS: Record<string, string> = {
   center: "NASA Center",
   tags: "Tags",
   year: "Year",
-  authors: "Authors",
 };
 
 const DEFAULT_VISIBLE = 8;
@@ -54,7 +53,7 @@ export function ActivePills({ activeFacets, onToggle, onClearAll }: ActivePillsP
         onClick={onClearAll}
         className="text-xs font-medium text-text-secondary hover:text-nasa-orange"
       >
-        Clear all
+        Clear filters
       </button>
     </div>
   );
@@ -66,7 +65,7 @@ interface FacetGroupSectionProps {
   onToggle: (field: string, value: string) => void;
 }
 
-function FacetGroupSection({
+const FacetGroupSection = memo(function FacetGroupSection({
   group,
   activeValues,
   onToggle,
@@ -170,7 +169,7 @@ function FacetGroupSection({
             <button
               type="button"
               onClick={() => setShowAll(!showAll)}
-              className="mt-1 px-2 text-left text-xs font-medium text-instrument-blue hover:underline"
+              className="mt-1 px-2 py-1.5 text-left text-xs font-medium text-instrument-blue hover:underline"
             >
               {showAll
                 ? "Show less"
@@ -181,7 +180,7 @@ function FacetGroupSection({
       )}
     </div>
   );
-}
+});
 
 interface FacetFiltersProps {
   facets: FacetGroup[];

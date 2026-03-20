@@ -30,6 +30,10 @@ export function getAllSlugs(): string[] {
 
 export const getDocumentSlugs = getAllSlugs;
 
+export function getDocumentCount(): number {
+  return getAllSlugs().length;
+}
+
 export function getDocumentBySlug(slug: string): DocumentFull | null {
   const filePath = path.join(contentDir, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;

@@ -1,4 +1,4 @@
-import { Client } from "typesense";
+import { Client, SearchClient } from "typesense";
 import type { CollectionCreateSchema } from "typesense/lib/Typesense/Collections";
 
 export const COLLECTION_NAME = "documents";
@@ -23,14 +23,15 @@ export const documentSchema: CollectionCreateSchema = {
   default_sorting_field: "year",
 };
 
-// server-side only — used by index script and API route
+//server-side only — never import in client components
 export function getAdminClient(): Client {
   const host = process.env.TYPESENSE_HOST;
-  const apiKey = process.env.TYPESENSE_ADMIN_API_KEY ?? process.env.TYPESENSE_API_KEY;
+  const apiKey = process.env.TYPESENSE_ADMIN_API_KEY;
 
   if (!host || !apiKey) {
     throw new Error(
-      "Missing TYPESENSE_HOST or TYPESENSE_ADMIN_API_KEY env vars."
+      "Missing TYPESENSE_HOST or TYPESENSE_ADMIN_API_KEY env vars. " +
+        "Copy .env.local.example to .env.local and fill in values."
     );
   }
 
@@ -38,11 +39,32 @@ export function getAdminClient(): Client {
     nodes: [
       {
         host,
-        port: Number(process.env.TYPESENSE_PORT ?? 8108),
-        protocol: process.env.TYPESENSE_PROTOCOL ?? "http",
+        port: Number(process.env.TYPESENSE_PORT ?? 443),
+        protocol: process.env.TYPESENSE_PROTOCOL ?? "https",
       },
     ],
     apiKey,
     connectionTimeoutSeconds: 5,
   });
+}
+
+//client-side search — uses search-only API key (module-level singleton)
+let _searchClient: SearchClient | null = null;
+
+export function getSearchClient(): SearchClient {
+  if (!_searchClient) {
+    _searchClient = new SearchClient({
+      nodes: [
+        {
+          host: process.env.NEXT_PUBLIC_TYPESENSE_HOST ?? "localhost",
+          port: Number(process.env.NEXT_PUBLIC_TYPESENSE_PORT ?? 8108),
+          protocol: process.env.NEXT_PUBLIC_TYPESENSE_PROTOCOL ?? "http",
+        },
+      ],
+      apiKey: process.env.NEXT_PUBLIC_TYPESENSE_SEARCH_KEY ?? "",
+      connectionTimeoutSeconds: 3,
+      logLevel: "error",
+    });
+  }
+  return _searchClient;
 }

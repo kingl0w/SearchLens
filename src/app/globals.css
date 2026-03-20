@@ -84,6 +84,38 @@ samp {
   border-radius: 0.5rem;
 }
 
+/* Global focus-visible ring for all interactive elements */
+a:focus-visible,
+button:focus-visible,
+[role="option"]:focus-visible {
+  outline: 2px solid var(--color-instrument-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Override for elements on dark backgrounds */
+.hero-starfield a:focus-visible,
+.hero-starfield button:focus-visible,
+.hero-starfield [role="option"]:focus-visible {
+  outline-color: var(--color-nasa-orange);
+}
+
+/* Respect reduced motion for all transitions and animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(400%); }
+}
+
 .hero-starfield {
   background-color: var(--color-deep-space);
   background-image:

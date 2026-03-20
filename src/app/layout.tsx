@@ -8,6 +8,7 @@ import {
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -41,14 +42,14 @@ export const metadata: Metadata = {
     template: "%s | SearchLens",
   },
   description:
-    "Search and explore 1,600+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
+    "Search and explore 1,795+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
     title: "SearchLens — NASA Document Search",
     description:
-      "Search and explore 1,600+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
+      "Search and explore 1,795+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
     url: "https://searchlens.space",
     siteName: "SearchLens",
     locale: "en_US",
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SearchLens — NASA Document Search",
     description:
-      "Search and explore 1,600+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
+      "Search and explore 1,795+ NASA mission reports, technical briefs, and historical documents with instant full-text search spanning 60+ years of space exploration.",
   },
   robots: {
     index: true,
@@ -93,7 +94,7 @@ export default function RootLayout({
       lang="en"
       className={`${dmSans.variable} ${sourceSerif.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="font-body bg-background text-text-primary antialiased">
+      <body className="flex min-h-screen flex-col font-body bg-background text-text-primary antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -105,13 +106,8 @@ export default function RootLayout({
           Skip to main content
         </a>
         <SiteHeader />
-        <main id="main-content" className="pt-16">{children}</main>
-        <footer className="border-t border-gray-200 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-secondary">
-            <p>Built with ❤️</p>
-            <p>NASA content is public domain</p>
-          </div>
-        </footer>
+        <main id="main-content" className="flex-1 pt-16">{children}</main>
+        <SiteFooter />
         <Analytics />
         <SpeedInsights />
       </body>
