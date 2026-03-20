@@ -1,28 +1,12 @@
 "use client";
 
 import { useState, useCallback, useRef, useEffect } from "react";
-import { getSearchClient, COLLECTION_NAME } from "@/lib/typesense";
+import { searchApi } from "@/lib/search-api";
 import type { FacetGroup, SearchHit } from "@/lib/types";
 
 const PER_PAGE = 12;
 const DEBOUNCE_MS = 300;
 const FACET_FIELDS = "program,category,tags,year,authors,center";
-
-interface TSDoc {
-  title: string;
-  slug: string;
-  body: string;
-  excerpt: string;
-  program: string;
-  category: string;
-  tags: string[];
-  year: number;
-  mission?: string;
-  authors: string[];
-  center?: string;
-  ntrs_id?: number;
-  word_count: number;
-}
 
 export interface ActiveFacets {
   [field: string]: string[];
@@ -57,7 +41,6 @@ function buildFilterBy(activeFacets: ActiveFacets): string {
   for (const [field, values] of Object.entries(activeFacets)) {
     if (values.length === 0) continue;
     if (NUMERICAL_FIELDS.has(field)) {
-      //int32 fields: bare numbers, no backticks
       parts.push(`${field}:=[${values.join(",")}]`);
     } else {
       const escaped = values.map((v) => "`" + v + "`");
@@ -86,15 +69,7 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const clientRef = useRef<ReturnType<typeof getSearchClient> | null>(null);
   const didInitRef = useRef(false);
-
-  function getClient() {
-    if (!clientRef.current) {
-      clientRef.current = getSearchClient();
-    }
-    return clientRef.current;
-  }
 
   const executeSearch = useCallback(
     async (q: string, pg: number, af: ActiveFacets) => {
@@ -106,37 +81,42 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
       setError(null);
 
       try {
-        const client = getClient();
         const filterBy = buildFilterBy(af);
-
         const isBrowse = !q;
-        const response = await client
-          .collections<TSDoc>(COLLECTION_NAME)
-          .documents()
-          .search(
-            {
-              q: q || "*",
-              query_by: "title,body,excerpt",
-              facet_by: FACET_FIELDS,
-              highlight_full_fields: "title,body",
-              highlight_start_tag: "<mark>",
-              highlight_end_tag: "</mark>",
-              per_page: PER_PAGE,
-              page: pg,
-              ...(filterBy ? { filter_by: filterBy } : {}),
-              ...(isBrowse ? { sort_by: "year:desc" } : {}),
-            },
-            { abortSignal: controller.signal },
-          );
+
+        const response = await searchApi(
+          {
+            q: q || "*",
+            query_by: "title,body,excerpt",
+            facet_by: FACET_FIELDS,
+            highlight_full_fields: "title,body",
+            highlight_start_tag: "<mark>",
+            highlight_end_tag: "</mark>",
+            per_page: PER_PAGE,
+            page: pg,
+            ...(filterBy ? { filter_by: filterBy } : {}),
+            ...(isBrowse ? { sort_by: "year:desc" } : {}),
+          },
+          { signal: controller.signal },
+        );
 
         if (controller.signal.aborted) return;
 
         const hits: SearchHit[] = (response.hits ?? []).map((hit) => ({
           document: {
-            ...hit.document,
-            body: hit.document.body,
-            word_count: hit.document.word_count,
-            pdf_url: undefined,
+            title: String(hit.document.title ?? ""),
+            slug: String(hit.document.slug ?? ""),
+            body: String(hit.document.body ?? ""),
+            excerpt: String(hit.document.excerpt ?? ""),
+            program: String(hit.document.program ?? ""),
+            category: String(hit.document.category ?? ""),
+            tags: (hit.document.tags as string[]) ?? [],
+            year: Number(hit.document.year ?? 0),
+            mission: hit.document.mission ? String(hit.document.mission) : undefined,
+            authors: (hit.document.authors as string[]) ?? [],
+            center: hit.document.center ? String(hit.document.center) : undefined,
+            ntrs_id: hit.document.ntrs_id ? Number(hit.document.ntrs_id) : undefined,
+            word_count: Number(hit.document.word_count ?? 0),
           },
           highlights: (hit.highlights ?? []).map((h) => ({
             field: String(h.field),
@@ -160,7 +140,6 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
         setTotalFound(response.found);
         setTotalPages(Math.ceil(response.found / PER_PAGE));
       } catch (err: unknown) {
-        //silence cancellation/abort errors from AbortController, fetch, typesense, and axios
         if (controller.signal.aborted) return;
         if (err instanceof DOMException && err.name === "AbortError") return;
         if (err instanceof Error) {
@@ -176,7 +155,6 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
         setTotalFound(0);
         setTotalPages(0);
       } finally {
-        //skip reset only when a newer request has taken over (abortRef points to the new controller)
         if (!controller.signal.aborted || abortRef.current === controller) {
           setIsLoading(false);
         }
@@ -191,7 +169,6 @@ export function useSearch(options: UseSearchOptions = {}): UseSearchReturn {
     executeSearch(initialQuery, initialPage, initialFacets);
 
     return () => {
-      //reset so StrictMode remount re-fires initial search
       didInitRef.current = false;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps

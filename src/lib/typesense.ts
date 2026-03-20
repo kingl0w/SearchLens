@@ -1,4 +1,4 @@
-import { Client, SearchClient } from "typesense";
+import { Client } from "typesense";
 import type { CollectionCreateSchema } from "typesense/lib/Typesense/Collections";
 
 export const COLLECTION_NAME = "documents";
@@ -46,25 +46,4 @@ export function getAdminClient(): Client {
     apiKey,
     connectionTimeoutSeconds: 5,
   });
-}
-
-//client-side search — uses search-only API key (module-level singleton)
-let _searchClient: SearchClient | null = null;
-
-export function getSearchClient(): SearchClient {
-  if (!_searchClient) {
-    _searchClient = new SearchClient({
-      nodes: [
-        {
-          host: process.env.NEXT_PUBLIC_TYPESENSE_HOST ?? "localhost",
-          port: Number(process.env.NEXT_PUBLIC_TYPESENSE_PORT ?? 8108),
-          protocol: process.env.NEXT_PUBLIC_TYPESENSE_PROTOCOL ?? "http",
-        },
-      ],
-      apiKey: process.env.NEXT_PUBLIC_TYPESENSE_SEARCH_KEY ?? "",
-      connectionTimeoutSeconds: 3,
-      logLevel: "error",
-    });
-  }
-  return _searchClient;
 }

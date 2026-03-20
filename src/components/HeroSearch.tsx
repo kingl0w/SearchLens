@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { Clock, Search, X } from "lucide-react";
-import { getSearchClient, COLLECTION_NAME } from "@/lib/typesense";
+import { searchApi } from "@/lib/search-api";
 import { getProgramColors } from "@/components/SearchResults";
 import { useRecentSearches } from "@/hooks/useRecentSearches";
 
@@ -31,7 +31,6 @@ export default function HeroSearch() {
   const listRef = useRef<HTMLUListElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const clientRef = useRef<ReturnType<typeof getSearchClient> | null>(null);
 
   const [query, setQuery] = useState("");
   const [hits, setHits] = useState<QuickHit[]>([]);
@@ -41,11 +40,6 @@ export default function HeroSearch() {
   const [activeIndex, setActiveIndex] = useState(-1);
   const [isNavigating, setIsNavigating] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
-
-  function getClient() {
-    if (!clientRef.current) clientRef.current = getSearchClient();
-    return clientRef.current;
-  }
 
   const search = useCallback(async (q: string) => {
     if (!q.trim()) {
@@ -60,27 +54,23 @@ export default function HeroSearch() {
     setIsLoading(true);
 
     try {
-      const client = getClient();
-      const res = await client
-        .collections(COLLECTION_NAME)
-        .documents()
-        .search(
-          {
-            q,
-            query_by: "title,body,excerpt",
-            per_page: 5,
-            include_fields: "slug,title,program,year",
-          },
-          { abortSignal: controller.signal },
-        );
+      const res = await searchApi(
+        {
+          q,
+          query_by: "title,body,excerpt",
+          per_page: 5,
+          include_fields: "slug,title,program,year",
+        },
+        { signal: controller.signal },
+      );
 
       if (controller.signal.aborted) return;
 
       const results: QuickHit[] = (res.hits ?? []).map((h) => ({
-        slug: String((h.document as Record<string, unknown>).slug),
-        title: String((h.document as Record<string, unknown>).title),
-        program: String((h.document as Record<string, unknown>).program),
-        year: Number((h.document as Record<string, unknown>).year),
+        slug: String(h.document.slug),
+        title: String(h.document.title),
+        program: String(h.document.program),
+        year: Number(h.document.year),
       }));
 
       setHits(results);
