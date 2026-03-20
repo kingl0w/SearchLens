@@ -201,7 +201,7 @@ export default function CommandSearch() {
       <button
         type="button"
         onClick={openModal}
-        className="flex flex-1 max-w-lg mx-4 items-center gap-2 rounded-lg border border-gray-200 bg-gray-100 px-3 py-2 text-sm text-text-secondary transition-colors hover:border-gray-300 hover:bg-gray-50"
+        className="hidden sm:flex flex-1 max-w-lg mx-4 items-center gap-2 rounded-lg border border-gray-200 bg-gray-100 px-3 py-2 text-sm text-text-secondary transition-colors hover:border-gray-300 hover:bg-gray-50"
         aria-label="Search NASA documents"
       >
         <Search className="w-4 h-4 shrink-0" aria-hidden="true" />
